@@ -1,0 +1,38 @@
+/* index-page */
+
+.left-column-wrap{
+    width: 230px;
+    float: left;
+
+    .blurb-block-wrap{
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    .blurb-block-wrap:last-child{
+        margin-bottom: 0;
+    }
+}
+
+.right-content-wrap{
+    margin-left: 250px;
+
+    .index-slide-item{
+        position: relative;
+
+        .index-slide-img img{
+            width: 100%;
+        }
+
+        .index-slide-button{
+            position: absolute;
+            right: 5%;bottom: 5%;
+
+            a{
+
+            }
+        }
+    }
+
+}
+
+/* /index-page */

@@ -1,6 +1,57 @@
-<div class="main mbox">
-    m harum tempore reprehenderit quas? Impedit quaerat iure, possimus provident, omnis perferendis accusamus maiores maxime error dolores aspernatur nihil blanditiis aliquam iusto, qui harum delectus nulla, praesentium et voluptatum.
-    ciis deleniti assumenda eaque non, temporibus sapiente vel delectus eius, quisquam libero maiores hic.
+<div class="main index-page mbox">
 
-	<div class="clear"></div>
+    <div class="content-top-wrap cfix">
+        <div class="left-column-wrap">
+            <div class="blurb-block-wrap">
+                <a href="#">
+                    <img src="images/blurb-img-1.png" alt="" />
+                </a>
+            </div>
+            <div class="blurb-block-wrap">
+                <a href="#">
+                    <img src="images/blurb-img-2.png" alt="" />
+                </a>
+            </div>
+        </div>
+
+        <div class="right-content-wrap">
+            <div class="index-slide-wrap">
+                <div class="index-slide">
+                    <div class="index-slide-item">
+                        <div class="index-slide-img">
+                            <img src="images/index-slide-img.jpg" alt="" />
+                        </div>
+                        <div class="index-slide-button">
+                            <a href="#" class="button">Подробнее</a>
+                        </div>
+                    </div>
+                    <div class="index-slide-item">
+                        <div class="index-slide-img">
+                            <img src="images/index-slide-img.jpg" alt="" />
+                        </div>
+                        <div class="index-slide-button">
+                            <a href="#" class="button">Подробнее1</a>
+                        </div>
+                    </div>
+                    <div class="index-slide-item">
+                        <div class="index-slide-img">
+                            <img src="images/index-slide-img.jpg" alt="" />
+                        </div>
+                        <div class="index-slide-button">
+                            <a href="#" class="button">Подробнее2</a>
+                        </div>
+                    </div>
+                    <div class="index-slide-item">
+                        <div class="index-slide-img">
+                            <img src="images/index-slide-img.jpg" alt="" />
+                        </div>
+                        <div class="index-slide-button">
+                            <a href="#" class="button">Подробнее3</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
 </div>

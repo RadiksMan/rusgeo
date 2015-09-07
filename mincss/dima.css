@@ -1,0 +1,34 @@
+/* index-page */
+.left-column-wrap {
+  width: 230px;
+  float: left;
+}
+
+.left-column-wrap .blurb-block-wrap {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.left-column-wrap .blurb-block-wrap:last-child {
+  margin-bottom: 0;
+}
+
+.right-content-wrap {
+  margin-left: 250px;
+}
+
+.right-content-wrap .index-slide-item {
+  position: relative;
+}
+
+.right-content-wrap .index-slide-item .index-slide-img img {
+  width: 100%;
+}
+
+.right-content-wrap .index-slide-item .index-slide-button {
+  position: absolute;
+  right: 5%;
+  bottom: 5%;
+}
+
+/* /index-page */

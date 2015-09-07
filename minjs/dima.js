@@ -1,1 +1,1 @@
-$(document).ready(function(){});
+function indexSlider(){console.log("s"),$(".index-slide").slick({})}$(document).ready(function(){indexSlider()}),$(window).load(function(){});
