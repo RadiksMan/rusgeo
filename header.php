@@ -17,19 +17,14 @@
 	<link rel="stylesheet" type="text/css" href="mincss/style.css" media="all" />
 	<script src="minjs/jquery-1.10.0.min.js" type="text/javascript"></script>
 
-	<script src="minjs/selectivizr-min.js" type="text/javascript"></script>
 
-	<link rel="stylesheet" type="text/css" href="mincss/jquery.znice.css" media="all" />
+
 	<script src="minjs/jquery.validate.min.js" type="text/javascript"></script>
-	<script src="minjs/jquery.znice.validate.js" type="text/javascript"></script>
-	<script src="minjs/jquery.znice.js" type="text/javascript"></script>
 
 	<link rel="stylesheet" type="text/css" href="fancybox/jquery.fancybox.css" media="all" />
 	<script src="fancybox/jquery.fancybox.js" type="text/javascript"></script>
 
-    <script src="minjs/modernizr.js" type="text/javascript"></script>
 	<script src="minjs/slick.js" type="text/javascript"></script>
-	<script src="minjs/jquery.watermark.min.js" type="text/javascript"></script>
 
 
     <script src="minjs/dima.js" type="text/javascript"></script>
