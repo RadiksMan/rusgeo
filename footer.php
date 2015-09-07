@@ -55,14 +55,52 @@
                         </div>
                         <div class="ft_item_zayavka">
                             <a href="#">
-                                Оставить заявку
+                                <span>Оставить заявку</span>
                             </a>
                         </div>
 
                     </div>
                 </div>
-                <div class="footer-middle"></div>
-                <div class="footer-bottomq"></div>
+                <div class="footer-middle cfix">
+                    <div class="footer_rating">
+                        <div class="footer_rating_wrap">
+                            <span>Оцените качество обслуживания</span>
+                            <form name="" id="">
+                                <div class="form-item rating cfix">
+                                    <label><span class="form-input"><input type="radio" name="star"><span class="radio-icon"></span></span></label>
+                                    <label><span class="form-input"><input type="radio" name="star"><span class="radio-icon"></span></span></label>
+                                    <label><span class="form-input"><input type="radio" name="star"><span class="radio-icon"></span></span></label>
+                                    <label><span class="form-input"><input type="radio" name="star"><span class="radio-icon"></span></span></label>
+                                    <label><span class="form-input"><input type="radio" name="star"><span class="radio-icon"></span></span></label>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="footer_tovar">
+                        <a href="#">
+                            <span><img src="images/footer_tovar.png" alt=""></span>
+                            Каталог товаров
+                        </a>
+                    </div>
+                </div>
+                <div class="footer-bottom cfix">
+                    <div class="copyrating">
+                        <span>© 2014. PУСГЕОКОМ</span>
+                    </div>
+                    <div class="bf_social">
+                        <a href="#"><img src="images/social_icon_2.svg" alt=""></a>
+                        <a href="#"><img src="images/social_icon_1.svg" alt=""></a>
+                    </div>
+                    <div class="site_map">
+                        <a href="#">
+                            <span>Карта сайта</span>
+                        </a>
+                    </div>
+                    <a href="#" class="mistake">
+                        Заметили ошибку?
+                    </a>
+
+                </div>
             </div>
 		</div>
 	</footer>
