@@ -15,21 +15,21 @@
 	<link rel="stylesheet" type="text/css" href="mincss/dima.css" media="all" />
 	<link rel="stylesheet" type="text/css" href="mincss/radiks.css" media="all" />
 	<link rel="stylesheet" type="text/css" href="mincss/style.css" media="all" />
-	<script src="minjs/jquery-1.10.0.min.js" type="text/javascript"></script>
+	<script src="js/jquery-1.10.0.min.js" type="text/javascript"></script>
 
 
 
-	<script src="minjs/jquery.validate.min.js" type="text/javascript"></script>
+	<script src="js/jquery.validate.min.js" type="text/javascript"></script>
 
 	<link rel="stylesheet" type="text/css" href="fancybox/jquery.fancybox.css" media="all" />
 	<script src="fancybox/jquery.fancybox.js" type="text/javascript"></script>
 
-	<script src="minjs/slick.js" type="text/javascript"></script>
+	<script src="js/slick.js" type="text/javascript"></script>
 
 
-    <script src="minjs/dima.js" type="text/javascript"></script>
-    <script src="minjs/radiks.js" type="text/javascript"></script>
-	<script src="minjs/scr.js" type="text/javascript"></script>
+    <script src="js/dima.js" type="text/javascript"></script>
+    <script src="js/radiks.js" type="text/javascript"></script>
+	<script src="js/scr.js" type="text/javascript"></script>
 
 	<!--[if lt IE 9]>
 		<script>

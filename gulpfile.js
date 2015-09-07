@@ -51,10 +51,10 @@ gulp.task('sass', function () {
 
 //Смотрю за изменением JS
 gulp.task('watch',function(){
-    gulp.watch('js/*.js', ['scripts']);
+    //gulp.watch('js/*.js', ['scripts']);
     gulp.watch('sass/**/*.scss', ['sass']);
     gulp.watch("*.php").on('change', browserSync.reload);
 });
 
 
-gulp.task('default', ['scripts','sass','watch','browser-sync']);
+gulp.task('default', ['sass','watch','browser-sync']);
