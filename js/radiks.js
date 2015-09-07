@@ -71,7 +71,18 @@ function ratingScript(){
 }
 
 /*/footer*/
+
+function acordionIndex(){
+    $('.oplata-title').click(function(){
+        $('.oplata-item.active .oplata-text').slideUp();
+        $('.oplata-item').removeClass('active');
+        $(this).parent().addClass('active');
+        $(this).parent().find('.oplata-text').slideDown(300);
+    });
+}
+
 $(document).ready(function() {
+    acordionIndex();
     loggedClick();
     navHover();
     navSearch();

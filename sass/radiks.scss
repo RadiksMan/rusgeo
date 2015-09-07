@@ -219,7 +219,7 @@
 /* /header*/
 
 /*footer*/
-.footer{background-color: #f7f7f7;box-shadow: inset 0 8px 10px -5px #f3f3f3;
+.footer{background-color: #f7f7f7;box-shadow: inset 0 8px 10px -5px #f3f3f3;position: absolute;left: 0;bottom: 0;right: 0;
     .footer-top{padding: 10px;padding-top: 54px;padding-left: 40px;
         .ft_item{float: left;width: 25%;
             .ft_item_title{color: #7f8c8d;font-size: 14px;font-weight: bold;padding-bottom: 30px;text-transform: uppercase;}
@@ -285,5 +285,49 @@
         }
         .mistake{display: block;float: right;font-weight: 300;font-size: 14px;color: #acacac;    margin-right: 79px;&:hover{text-decoration: none;}}
     }
+}
+/*/footer*/
 
+/*index page*/
+.read_more{
+    a{display: inline-block;vertical-align: middle;text-transform: none;
+        color: #2980b9;text-decoration: none;font-size: 14px;&:hover{text-decoration: underline;}
+        span{vertical-align: baseline;display: inline-block;}
+    }
+}
+
+.about_company{color: #7b7b7b;background-color: #fff;
+    .about_company_wrap{padding-bottom: 90px;padding: 0 40px;padding-top: 61px;}
+    .about_company_title{font-size: 24px;padding-bottom: 20px;}
+    .about_company_text{font-weight: 400;font-size: 13px;
+        p{margin-bottom: 20px;line-height: 25px;}
+    }
+}
+
+.devilary{background-color: #f7f7f7;box-shadow: inset 0 8px 10px -5px #f3f3f3;padding: 0 40px;padding-bottom: 36px;
+    .devilary_wrap{}
+    .devilary_side{float: left;width: 50%;padding-right: 30px;
+    }
+    .devilary_side_title{color: #494a4b;font-size: 24px;padding-top: 41px;padding-bottom: 47px;}
+    .devilary_side_item{padding-bottom: 30px;}
+    .devilary_side_item_title{font-weight: 600;font-size: 14px;color: #494a4b;    padding-bottom: 8px;}
+    .devilary_side_item_text{
+        p{font-size: 14px;line-height: 16px;line-height: 20px;}
+    }
+    .oplata-title{
+            position: relative;padding-left: 20px;color: #2980b9;text-decoration: none;font-size: 14px;display: block;padding-bottom: 12px;
+            span{border-bottom:1px dashed #2980b9;cursor:pointer;&:hover{border-bottom: none;}}
+            &:after{
+                position: absolute;content: '';top: 14%;left: 6px;height: 7px;width: 7px;background: url('../images/devilary_side_item_text_oplata.png') center center no-repeat;transition: all ease .2s;
+            }
+    }
+    .oplata-text{display: none;padding-bottom: 15px;}
+    .oplata-item.active{
+        .oplata-title{color: #494a4b;span{border-color: #494a4b;}
+        &:after{transform: rotate(90deg);}}
+
+    }
+}
+.news{
+    .news_wrap{padding: 0 40px;}
 }

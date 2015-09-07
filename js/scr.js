@@ -68,7 +68,7 @@ function oneHeightItems(){
 /* DOCUMENT READY  */
 $(document).ready(function() {
 
-	$('.footer_placeholder').height($('.footer').outerHeight());
+	$('.footer_placeholder').height($('.footer').outerHeight()+6);
 
 
 });
