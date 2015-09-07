@@ -67,3 +67,53 @@ p{margin:0;}
 .mbox{min-width:960px;max-width:1600px;margin:0 auto;position:relative;z-index:1;}
 .mbox:after, .cfix:after{content:"";clear:both;font-size:1px;line-height:1px;height:0;overflow:hidden;display:block;}
 /* /wraps styling*/
+
+/* button styles */
+
+    .button{
+        display: inline-block;
+        width: 100%;
+        min-width: 230px;
+        box-sizing:border-box;
+        padding: 0 5px;
+        font-family: 'Open Sans', sans-serif;
+        text-align: center;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-size: 18px;
+        color:#fff;
+        background-color: #37728b;
+        height: 40px;
+        line-height: 40px;
+        transition: color 300ms ease, background-color 300ms ease;
+        -webkit-transition: color 300ms ease, background-color 300ms ease;
+        -moz-transition: color 300ms ease, background-color 300ms ease;
+        -o-transition: color 300ms ease, background-color 300ms ease;
+        -ms-transition: color 300ms ease, background-color 300ms ease;
+
+        &:hover{
+            text-decoration: none;
+            background-color: #fff;
+            color:#37728b;
+        }
+
+        &.slider-button{
+            min-width: 160px;
+            height: 53px;
+            line-height: 49px;
+            border:2px solid #37728b;
+            color:#37728b;
+            border-radius: 25px;
+            background-color: transparent;
+
+            &:hover{
+                background-color:#37728b;
+                color:#fff;
+            }
+
+        }
+
+
+    }
+
+/* /button styles */
