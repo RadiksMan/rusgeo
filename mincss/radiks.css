@@ -816,9 +816,83 @@
 .footer .footer-top {
   padding: 10px;
   padding-top: 54px;
+  padding-left: 40px;
 }
 
 .footer .footer-top .ft_item {
   float: left;
   width: 25%;
+}
+
+.footer .footer-top .ft_item .ft_item_title {
+  color: #7f8c8d;
+  font-size: 14px;
+  font-weight: bold;
+  padding-bottom: 30px;
+  text-transform: uppercase;
+}
+
+.footer .footer-top .ft_item .ft_item_href li {
+  padding-bottom: 15px;
+}
+
+.footer .footer-top .ft_item .ft_item_href a {
+  color: #95a5a6;
+  font-weight: 300;
+  text-transform: uppercase;
+  text-decoration: underline;
+}
+
+.footer .footer-top .ft_item .ft_item_href a:hover {
+  text-decoration: none;
+}
+
+.footer .footer-top .telTop {
+  padding-left: 30px;
+  background: url("../images/footer_telTop.png") top left no-repeat;
+  margin-left: -22px;
+  padding-bottom: 10px;
+}
+
+.footer .footer-top .telTop a {
+  font-weight: 600;
+  font-size: 20px;
+  color: #a3a4a4;
+  text-decoration: none;
+}
+
+.footer .footer-top .callbackWrap {
+  padding-top: 2px;
+  padding-left: 28px;
+  background: url(../images/callback-footer.png) center left no-repeat;
+}
+
+.footer .footer-top .callbackWrap a {
+  display: block;
+  font-size: 14px;
+  color: #acacac;
+  text-decoration: none;
+}
+
+.footer .footer-top .callbackWrap a span {
+  border-bottom: 1px dotted #8ebcd9;
+}
+
+.footer .footer-top .callbackWrap a span:hover {
+  border-bottom: none;
+}
+
+.footer .footer-top .ft_item_email {
+  padding-top: 18px;
+  padding-left: 5px;
+}
+
+.footer .footer-top .ft_item_email a {
+  text-transform: uppercase;
+  font-size: 14px;
+  color: #acacac;
+}
+
+.footer .footer-top .ft_item_email a:hover {
+  text-decoration: none;
 }
