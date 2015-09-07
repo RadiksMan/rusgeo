@@ -1,5 +1,5 @@
 var gulp = require('gulp'),
-    sass = require('gulp-sass'),//npm install gulp-sass --save-dev
+    sass = require('gulp-sass'),//npm install gulp-sass --save-dev | outputStyle nested, expanded, compact, compressed
     uglify = require('gulp-uglify'),
     autoprefixer = require('gulp-autoprefixer'),//npm install --save-dev gulp-autoprefixer
     browserSync = require('browser-sync').create();//npm install browser-sync gulp --save-dev
@@ -38,7 +38,7 @@ gulp.task('sass', function () {
     .src(input)
     // .pipe(sass().on('error', sass.logError))
     // Run Sass on those files
-    .pipe(sass({outputStyle: 'compressed'}).on('error', sass.logError))
+    .pipe(sass({outputStyle: 'expanded'}).on('error', sass.logError))
     .pipe(autoprefixer({
         browsers: ['last 2 versions'],
         cascade: false
