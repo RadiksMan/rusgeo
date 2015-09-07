@@ -1,15 +1,5 @@
 var scroller=jQuery.browser.webkit ? "body": "html";
 
-/* modernize */
-function modernize() {
-	// placeholder
-	if(!Modernizr.input.placeholder){
-		$('[placeholder]').each(function() {
-			$(this).watermark($(this).attr('placeholder'));
-		});
-	}
-}
-
 
 /* input only Number  */
 function inputNumber(block) {
@@ -77,10 +67,10 @@ function oneHeightItems(){
 
 /* DOCUMENT READY  */
 $(document).ready(function() {
-	modernize();
+
 	$('.footer_placeholder').height($('.footer').outerHeight());
 
-	oneHeightItems();
+
 });
 
 $(window).resize(function() {
