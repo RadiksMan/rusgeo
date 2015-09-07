@@ -17,19 +17,14 @@
 	<link rel="stylesheet" type="text/css" href="mincss/style.css" media="all" />
 	<script src="minjs/jquery-1.10.0.min.js" type="text/javascript"></script>
 
-	<script src="minjs/selectivizr-min.js" type="text/javascript"></script>
 
-	<link rel="stylesheet" type="text/css" href="mincss/jquery.znice.css" media="all" />
+
 	<script src="minjs/jquery.validate.min.js" type="text/javascript"></script>
-	<script src="minjs/jquery.znice.validate.js" type="text/javascript"></script>
-	<script src="minjs/jquery.znice.js" type="text/javascript"></script>
 
 	<link rel="stylesheet" type="text/css" href="fancybox/jquery.fancybox.css" media="all" />
 	<script src="fancybox/jquery.fancybox.js" type="text/javascript"></script>
 
-    <script src="minjs/modernizr.js" type="text/javascript"></script>
 	<script src="minjs/slick.js" type="text/javascript"></script>
-	<script src="minjs/jquery.watermark.min.js" type="text/javascript"></script>
 
 
     <script src="minjs/dima.js" type="text/javascript"></script>
@@ -193,93 +188,131 @@
 		</div>
 		<div class="header-nav">
 			<div class="mbox">
-                <div class="nav_wrap nav_1">
-                    <div class="nav-title">
-                        <div class="nav-img"></div>
-                        <div class="nav-text">
-                            Геодезическое оборудование
+                <div class="navigation cfix">
+                    <div class="nav_wrap nav_1">
+                        <div class="nav-title">
+                            <div class="nav-img"></div>
+                            <div class="nav-text">
+                                Геодезическое оборудование
+                            </div>
+                        </div>
+                        <div class="nav-menu">
+                            <ul>
+                                <li><a href="#"><span>Геодезические приемники</span></a></li>
+                                <li><a href="#"><span>Электронные тахеометры</span></a></li>
+                                <li><a href="#"><span>Сканирующие системы</span></a>
+                                    <ul>
+                                        <li><a href="#">RGK</a></li>
+                                        <li><a href="#">SOKKOL</a></li>
+                                        <li><a href="#">Lukoil</a></li>
+                                        <li><a href="#">Cmon Evevrybody</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="#"><span>Полевые контроллеры</span></a></li>
+                                <li><a href="#"><span>Электронные теодолиты</span></a></li>
+                                <li><a href="#"><span>Оптические теодолиты</span></a>
+                                    <ul>
+                                        <li><a href="#">RGK</a></li>
+                                        <li><a href="#">SOKKOL</a></li>
+                                        <li><a href="#">Lukoil</a></li>
+                                        <li><a href="#">Cmon Evevrybody</a></li>
+                                        <li><a href="#">RGK</a></li>
+                                        <li><a href="#">SOKKOL</a></li>
+                                        <li><a href="#">Lukoil</a></li>
+                                        <li><a href="#">Cmon Evevrybody</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="#"><span>Оптические нивелиры</span></a></li>
+                                <li><a href="#"><span>Лазерные уровни</span></a></li>
+                                <li><a href="#"><span>Цифровые нивелиры</span></a></li>
+                                <li><a href="#"><span>Лазерные дальномеры</span></a></li>
+                                <li><a href="#"><span>Трассоискатели</span></a></li>
+                                <li><a href="#"><span>Георадары</span></a></li>
+                                <li><a href="#"><span>GPS-навигаторы</span></a></li>
+                                <li><a href="#"><span>Беспилотные аппараты</span></a></li>
+                                <li><a href="#"><span>Программное обеспечение</span></a></li>
+                                <li><a href="#"><span>Аксессуары</span></a></li>
+                            </ul>
                         </div>
                     </div>
-                    <div class="nav-menu">
-                        <ul>
-                            <li><a href="#"><span>Геодезические приемники</span></a></li>
-                            <li><a href="#"><span>Электронные тахеометры</span></a></li>
-                            <li><a href="#"><span>Сканирующие системы</span></a>
-                                <ul>
-                                    <li><a href="#">RGK</a></li>
-                                    <li><a href="#">SOKKOL</a></li>
-                                    <li><a href="#">Lukoil</a></li>
-                                    <li><a href="#">Cmon Evevrybody</a></li>
-                                </ul>
-                            </li>
-                            <li><a href="#"><span>Полевые контроллеры</span></a></li>
-                            <li><a href="#"><span>Электронные теодолиты</span></a></li>
-                            <li><a href="#"><span>Оптические теодолиты</span></a>
-                                <ul>
-                                    <li><a href="#">RGK</a></li>
-                                    <li><a href="#">SOKKOL</a></li>
-                                    <li><a href="#">Lukoil</a></li>
-                                    <li><a href="#">Cmon Evevrybody</a></li>
-                                    <li><a href="#">RGK</a></li>
-                                    <li><a href="#">SOKKOL</a></li>
-                                    <li><a href="#">Lukoil</a></li>
-                                    <li><a href="#">Cmon Evevrybody</a></li>
-                                </ul>
-                            </li>
-                            <li><a href="#"><span>Оптические нивелиры</span></a></li>
-                            <li><a href="#"><span>Лазерные уровни</span></a></li>
-                            <li><a href="#"><span>Цифровые нивелиры</span></a></li>
-                            <li><a href="#"><span>Лазерные дальномеры</span></a></li>
-                            <li><a href="#"><span>Трассоискатели</span></a></li>
-                            <li><a href="#"><span>Георадары</span></a></li>
-                            <li><a href="#"><span>GPS-навигаторы</span></a></li>
-                            <li><a href="#"><span>Беспилотные аппараты</span></a></li>
-                            <li><a href="#"><span>Программное обеспечение</span></a></li>
-                            <li><a href="#"><span>Аксессуары</span></a></li>
-                        </ul>
+                    <div class="nav_wrap nav_2">
+                        <div class="nav-title">
+                            <div class="nav-img"></div>
+                            <div class="nav-text">
+                                Контрольно -
+                                измерительные приборы
+                            </div>
+                        </div>
+                        <div class="nav-menu">
+                            <ul>
+                                <li><a href="#"><span>Тепловизоры</span></a></li>
+                                <li><a href="#"><span>Приборы теплового контроля</span></a></li>
+                                <li><a href="#"><span>Приборы неразрушающего контроля</span></a>
+                                    <ul>
+                                        <li><a href="#">RGK</a></li>
+                                        <li><a href="#">SOKKOL</a></li>
+                                        <li><a href="#">Lukoil</a></li>
+                                        <li><a href="#">Cmon Evevrybody</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="#"><span>Электроизмерительные приборы</span></a></li>
+                                <li><a href="#"><span>Измерители параметров окружающей среды</span></a></li>
+                                <li><a href="#"><span>Калибраторы технологических процессов</span></a>
+                                    <ul>
+                                        <li><a href="#">RGK</a></li>
+                                        <li><a href="#">SOKKOL</a></li>
+                                        <li><a href="#">Lukoil</a></li>
+                                        <li><a href="#">Cmon Evevrybody</a></li>
+                                        <li><a href="#">RGK</a></li>
+                                        <li><a href="#">SOKKOL</a></li>
+                                        <li><a href="#">Lukoil</a></li>
+                                        <li><a href="#">Cmon Evevrybody</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="#"><span>Калибраторы технологических процессов</span></a></li>
+                                <li><a href="#"><span>Прецизионный калибратор манометров</span></a></li>
+                                <li><a href="#"><span>Детекторы и трассопоисковые приборы</span></a></li>
+                                <li><a href="#"><span>Визуальный контроль</span></a></li>
+                                <li><a href="#"><span>Расходомеры жидкости</span></a></li>
+                                <li><a href="#"><span>Виброметры</span></a></li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
-                <div class="nav_wrap nav_2">
-                    <div class="nav-title">
-                        <div class="nav-img"></div>
-                        <div class="nav-text">
-                            Контрольно -
-                            измерительные приборы
+                <div class="nav_search ">
+                    <div class="nav_search_wrap cfix">
+                        <input type="text" name="nav_search" id="nav_search" class="" placeholder="Поиск">
+                        <button class="search_button" id="" name=""></button>
+                        <div class="search_items active">
+                            <div class="search_items_wrap">
+                                <div class="search_item">
+                                    <a href="#" class="cfix">
+                                        <div class="search_item_image"><img src="images/search_item_image1.png" alt=""></div>
+                                        <div class="search_item_title">GPS Topcon GRS-1</div>
+                                        <div class="search_item_price">257864 .-</div>
+                                    </a>
+                                </div>
+                                <div class="search_item">
+                                    <a href="#" class="cfix">
+                                        <div class="search_item_image"><img src="images/search_item_image2.png" alt=""></div>
+                                        <div class="search_item_title">GPS Topcon GRS-1</div>
+                                        <div class="search_item_price">257864 .-</div>
+                                    </a>
+                                </div>
+                                <div class="search_item">
+                                    <a href="#" class="cfix">
+                                        <div class="search_item_image"><img src="images/search_item_image3.png" alt=""></div>
+                                        <div class="search_item_title">GPS Topcon GRS-1</div>
+                                        <div class="search_item_price">257864 .-</div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="all-results">
+                                <a href="#">
+                                    Показать все результаты <span class="arrow-right"></span>
+                                </a>
+                            </div>
                         </div>
-                    </div>
-                    <div class="nav-menu">
-                        <ul>
-                            <li><a href="#"><span>Тепловизоры</span></a></li>
-                            <li><a href="#"><span>Приборы теплового контроля</span></a></li>
-                            <li><a href="#"><span>Приборы неразрушающего контроля</span></a>
-                                <ul>
-                                    <li><a href="#">RGK</a></li>
-                                    <li><a href="#">SOKKOL</a></li>
-                                    <li><a href="#">Lukoil</a></li>
-                                    <li><a href="#">Cmon Evevrybody</a></li>
-                                </ul>
-                            </li>
-                            <li><a href="#"><span>Электроизмерительные приборы</span></a></li>
-                            <li><a href="#"><span>Измерители параметров окружающей среды</span></a></li>
-                            <li><a href="#"><span>Калибраторы технологических процессов</span></a>
-                                <ul>
-                                    <li><a href="#">RGK</a></li>
-                                    <li><a href="#">SOKKOL</a></li>
-                                    <li><a href="#">Lukoil</a></li>
-                                    <li><a href="#">Cmon Evevrybody</a></li>
-                                    <li><a href="#">RGK</a></li>
-                                    <li><a href="#">SOKKOL</a></li>
-                                    <li><a href="#">Lukoil</a></li>
-                                    <li><a href="#">Cmon Evevrybody</a></li>
-                                </ul>
-                            </li>
-                            <li><a href="#"><span>Калибраторы технологических процессов</span></a></li>
-                            <li><a href="#"><span>Прецизионный калибратор манометров</span></a></li>
-                            <li><a href="#"><span>Детекторы и трассопоисковые приборы</span></a></li>
-                            <li><a href="#"><span>Визуальный контроль</span></a></li>
-                            <li><a href="#"><span>Расходомеры жидкости</span></a></li>
-                            <li><a href="#"><span>Виброметры</span></a></li>
-                        </ul>
                     </div>
                 </div>
 			</div>

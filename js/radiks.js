@@ -26,10 +26,27 @@ function navHover(){
             }
     });
 }
-
-
+function navSearch(){
+    $('#nav_search').on('change keyup',function() {
+        if($(this).val() !== ""){
+            $('.nav_search').addClass('active')
+        }else{
+            $('.nav_search').removeClass('active')
+        }
+    });
+}
+function delSearchInput(){
+    $(document).on('click','.search_button',function(){
+        if($('.nav_search').hasClass('active')){
+            $('#nav_search').val(" ");
+            navSearch()ж
+        }
+    });
+}
 
 $(document).ready(function() {
     loggedClick();
     navHover();
+    navSearch();
+    delSearchInput();
 });
