@@ -39,11 +39,12 @@ function delSearchInput(){
     $(document).on('click','.search_button',function(){
         if($('.nav_search').hasClass('active')){
             $('#nav_search').val(" ");
-            navSearch();
+
         }
+        navSearch();
     });
 }
-
+/*/header*/
 $(document).ready(function() {
     loggedClick();
     navHover();
