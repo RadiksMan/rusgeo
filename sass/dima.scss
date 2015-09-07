@@ -1,11 +1,15 @@
 /* index-page */
 
+.index-page{
+    padding-top: 10px;
+}
+
 .left-column-wrap{
     width: 230px;
     float: left;
 
     .blurb-block-wrap{
-        margin-bottom: 20px;
+        margin-bottom: 18px;
         text-align: center;
     }
     .blurb-block-wrap:last-child{
@@ -14,7 +18,44 @@
 }
 
 .right-content-wrap{
-    margin-left: 250px;
+    margin-left: 240px;
+
+    .index-slide{
+
+        .slick-dots{
+            bottom:15px;
+
+            li {
+
+                width: auto;
+                height: auto;
+
+                button{
+                    padding: 0;
+                    width: 10px;
+                    height: 10px;
+                    border:1px solid #37728b;
+                    background-color: #37728b;
+                    border-radius: 50%;
+
+                    &:hover, &:focus{
+                        background-color:#fff;
+                    }
+
+                    &:before{
+                        display: none;
+                    }
+                }
+
+                &.slick-active button{
+                    background-color: #fff;
+                }
+
+            }
+
+        }
+
+    }
 
     .index-slide-item{
         position: relative;
@@ -25,11 +66,8 @@
 
         .index-slide-button{
             position: absolute;
-            right: 5%;bottom: 5%;
-
-            a{
-
-            }
+            right: 10%;
+            bottom: 10%;
         }
     }
 

@@ -22,7 +22,7 @@
                             <img src="images/index-slide-img.jpg" alt="" />
                         </div>
                         <div class="index-slide-button">
-                            <a href="#" class="button">Подробнее</a>
+                            <a href="#" class="button slider-button">Подробнее</a>
                         </div>
                     </div>
                     <div class="index-slide-item">
@@ -30,7 +30,7 @@
                             <img src="images/index-slide-img.jpg" alt="" />
                         </div>
                         <div class="index-slide-button">
-                            <a href="#" class="button">Подробнее1</a>
+                            <a href="#" class="button slider-button">Подробнее1</a>
                         </div>
                     </div>
                     <div class="index-slide-item">
@@ -38,7 +38,7 @@
                             <img src="images/index-slide-img.jpg" alt="" />
                         </div>
                         <div class="index-slide-button">
-                            <a href="#" class="button">Подробнее2</a>
+                            <a href="#" class="button slider-button">Подробнее2</a>
                         </div>
                     </div>
                     <div class="index-slide-item">
@@ -46,7 +46,15 @@
                             <img src="images/index-slide-img.jpg" alt="" />
                         </div>
                         <div class="index-slide-button">
-                            <a href="#" class="button">Подробнее3</a>
+                            <a href="#" class="button slider-button">Подробнее3</a>
+                        </div>
+                    </div>
+                    <div class="index-slide-item">
+                        <div class="index-slide-img">
+                            <img src="images/index-slide-img.jpg" alt="" />
+                        </div>
+                        <div class="index-slide-button">
+                            <a href="#" class="button slider-button">Подробнее4</a>
                         </div>
                     </div>
                 </div>

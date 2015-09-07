@@ -1,11 +1,15 @@
 /* index-page */
+.index-page {
+  padding-top: 10px;
+}
+
 .left-column-wrap {
   width: 230px;
   float: left;
 }
 
 .left-column-wrap .blurb-block-wrap {
-  margin-bottom: 20px;
+  margin-bottom: 18px;
   text-align: center;
 }
 
@@ -14,7 +18,37 @@
 }
 
 .right-content-wrap {
-  margin-left: 250px;
+  margin-left: 240px;
+}
+
+.right-content-wrap .index-slide .slick-dots {
+  bottom: 15px;
+}
+
+.right-content-wrap .index-slide .slick-dots li {
+  width: auto;
+  height: auto;
+}
+
+.right-content-wrap .index-slide .slick-dots li button {
+  padding: 0;
+  width: 10px;
+  height: 10px;
+  border: 1px solid #37728b;
+  background-color: #37728b;
+  border-radius: 50%;
+}
+
+.right-content-wrap .index-slide .slick-dots li button:hover, .right-content-wrap .index-slide .slick-dots li button:focus {
+  background-color: #fff;
+}
+
+.right-content-wrap .index-slide .slick-dots li button:before {
+  display: none;
+}
+
+.right-content-wrap .index-slide .slick-dots li.slick-active button {
+  background-color: #fff;
 }
 
 .right-content-wrap .index-slide-item {
@@ -27,8 +61,8 @@
 
 .right-content-wrap .index-slide-item .index-slide-button {
   position: absolute;
-  right: 5%;
-  bottom: 5%;
+  right: 10%;
+  bottom: 10%;
 }
 
 /* /index-page */
