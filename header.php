@@ -4,6 +4,7 @@
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<meta name="description" content="" />
 	<meta name="keywords" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 	<title></title>
 	<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700,600,400italic,300,600italic,700italic&subset=cyrillic,latin' rel='stylesheet' type='text/css'>
 	<link href='https://fonts.googleapis.com/css?family=PT+Sans:400,400italic,700&subset=latin,cyrillic' rel='stylesheet' type='text/css'>

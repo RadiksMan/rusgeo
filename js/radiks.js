@@ -39,14 +39,53 @@ function delSearchInput(){
     $(document).on('click','.search_button',function(){
         if($('.nav_search').hasClass('active')){
             $('#nav_search').val(" ");
-            navSearch();
+            $('.nav_search').removeClass('active');
+        }
+    });
+}
+/*/header*/
+
+/*footer*/
+function ratingScript(){
+    $(document).on('mouseenter', '.rating label', function(){
+        var parent=$(this).parent();
+        parent.find('.form-input').removeClass('hovered');
+        var index=$(this).index();
+        for(var i=0;i<=index;i++){
+            parent.find('label').eq(i).find('.form-input').addClass('hovered');
+        }
+    });
+    $(document).on('mouseleave', '.rating:not(.static) label', function(){
+        var parent=$(this).parent();
+        parent.find('.form-input').removeClass('hovered');
+    });
+
+    $(document).on('change','.rating input', function(){
+        var parent=$(this).parents('.rating');
+        parent.find('.form-input').removeClass('active');
+        var index=$(this).parents('label').index();
+        for(var i=0;i<=index;i++){
+            parent.find('label').eq(i).find('.form-input').addClass('active');
         }
     });
 }
 
+/*/footer*/
+
+function acordionIndex(){
+    $('.oplata-title').click(function(){
+        $('.oplata-item.active .oplata-text').slideUp();
+        $('.oplata-item').removeClass('active');
+        $(this).parent().addClass('active');
+        $(this).parent().find('.oplata-text').slideDown(300);
+    });
+}
+
 $(document).ready(function() {
+    acordionIndex();
     loggedClick();
     navHover();
     navSearch();
     delSearchInput();
+    ratingScript();
 });
