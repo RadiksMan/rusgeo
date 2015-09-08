@@ -80,8 +80,24 @@ function acordionIndex(){
         $(this).parent().find('.oplata-text').slideDown(300);
     });
 }
+function BrensSliderIndex(){
+    if($('.brends_items').length > 0){
+        $('.brends_items').slick({
+            arrows:true,
+            dots:false,
+            autoplay: false,
+            autoplaySpeed: 2000,
+            infinite: true,
+            slidesToShow: 6,
+            slidesToScroll: 1
+        });
+    }
+}
+
+
 
 $(document).ready(function() {
+    BrensSliderIndex();
     acordionIndex();
     loggedClick();
     navHover();

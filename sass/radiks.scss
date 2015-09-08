@@ -329,5 +329,56 @@
     }
 }
 .news{
-    .news_wrap{padding: 0 40px;}
+    .news_wrap{padding: 0 20px;padding-bottom: 52px;}
+    .news_title{color: #242423;margin:0 20px;font-family: 'PT Sans',sans-serif;font-size: 24px;padding-bottom: 8px;border-bottom: 5px solid #ecf0f1;margin-bottom: 28px;padding-bottom: 8px;
+        a{font-size: 13px;font-family: "Open sans";color: #2980b9;font-weight: normal;cursor: pointer;padding-left: 15px;}}
+    .news_items{}
+    .news_item{float: left;width: 25%;padding: 0 20px;
+        &:hover{.news_item_title{text-decoration: underline;}}
+        a{text-decoration: none;}
+        .news_item_date{padding-bottom: 5px;color: #494a4b;}
+        .news_item_image{text-align: center;width: 140px;height: 140px;margin:0 auto;margin-bottom: 16px;
+            img{display: inline-block;border-radius: 50%;overflow: hidden;width: 100%;height: 100%;}
+        }
+        .news_item_title{color: #2980b9;font-size: 16px;font-family: 'PT Sans',sans-serif;line-height: 20px;padding-bottom: 9px;}
+        .news_item_text{line-height: 20px;color: #494a4b;font-size: 13px;}
+    }
 }
+.brend{
+    .brend_wrap{padding: 0 40px;}
+    .brend_title{color: #242423;font-family: 'PT Sans',sans-serif;font-size: 24px;padding-bottom: 8px;border-bottom: 5px solid #ecf0f1;margin-bottom: 28px;padding-bottom: 8px;
+        a{font-size: 13px;font-family: "Open sans";color: #2980b9;font-weight: normal;cursor: pointer;padding-left: 15px;}}
+    .brend_item{border:1px solid transparent;margin:0 10px 30px;display: table-cell;text-align: center;height: 106px;vertical-align: middle;position: relative;
+        a{display: inline-block;vertical-align: middle;height: 100%;width: 100%;text-decoration: none;
+            &:before{
+                content: "";
+                display: inline-block;
+                min-height: inherit;
+                height: 100%;
+                vertical-align: middle;
+            }
+        }
+        .brend_item_wrap{display: inline-block;}
+        img{}
+        &:hover{border:1px solid #ecf0f1;
+            &:after{
+                border-top: 3px solid #3397d1;
+                border-left: 3px solid transparent;
+                border-right: 3px solid transparent;
+                height: 0;
+                width: 97%;
+                position: absolute;
+                content: "";
+                bottom: -3px;
+                left: -1px;
+                right: 0;
+                @media screen and (min-width: 1300px) {
+                   width: 98%;
+                  }
+            }
+
+        }
+
+    }
+}
+
