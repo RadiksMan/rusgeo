@@ -43,6 +43,13 @@ function delSearchInput(){
         }
     });
 }
+function headeSelect(){
+    if($('.headerCity select').length > 0){
+        setTimeout(function() {
+          $('.headerCity select').styler();
+        }, 100)
+    }
+}
 /*/header*/
 
 /*footer*/
@@ -94,9 +101,22 @@ function BrensSliderIndex(){
     }
 }
 
+function productItemsHeightElem(item){
+    var height = 0;
+    item.each(function(){
+       var itemHeight = $(this).find('.product-item-wrapper').outerHeight();
+       if(itemHeight>height){
+           height = itemHeight;
+       }
+    });
+    item.height(height);
+}
 
 
 $(document).ready(function() {
+    headeSelect();
+    productItemsHeightElem($('.reccomend-item .product-item'))
+    productItemsHeightElem($('.popular-item .product-item'))
     BrensSliderIndex();
     acordionIndex();
     loggedClick();
@@ -104,4 +124,8 @@ $(document).ready(function() {
     navSearch();
     delSearchInput();
     ratingScript();
+});
+$(window).resize(function() {
+    productItemsHeightElem($('.reccomend-item .product-item'))
+    productItemsHeightElem($('.popular-item .product-item'))
 });

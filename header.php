@@ -13,6 +13,7 @@
     <link rel="stylesheet" type="text/css" href="mincss/reset.css" media="all" />
     <link rel="stylesheet" type="text/css" href="mincss/slick-theme.css" media="all" />
     <link rel="stylesheet" type="text/css" href="mincss/slick.css" media="all" />
+    <link rel="stylesheet" type="text/css" href="mincss/jquery.formstyler.css" media="all" />
 	<link rel="stylesheet" type="text/css" href="mincss/dima.css" media="all" />
 	<link rel="stylesheet" type="text/css" href="mincss/radiks.css" media="all" />
 	<link rel="stylesheet" type="text/css" href="mincss/style.css" media="all" />
@@ -25,7 +26,8 @@
 	<link rel="stylesheet" type="text/css" href="fancybox/jquery.fancybox.css" media="all" />
 	<script src="fancybox/jquery.fancybox.js" type="text/javascript"></script>
 
-	<script src="js/slick.js" type="text/javascript"></script>
+    <script src="js/slick.js" type="text/javascript"></script>
+	<script src="js/jquery.formstyler.js" type="text/javascript"></script>
 
 
     <script src="js/dima.js" type="text/javascript"></script>
@@ -64,14 +66,20 @@
 							<li><a href="#">Контакты</a></li>
 						</ul>
 					</div>
-					<div class="headerCity"></div>
+					<div class="headerCity">
+                        <select name="" id="">
+                            <option value="moscow">Москва</option>
+                            <option value="moscow2">Москва2</option>
+                            <option value="moscow3">Москва3</option>
+                        </select>
+                    </div>
 					<div class="headerLogin">
 						<div class="loginIco ">
 							<a href="#">
 								<img src="images/LoginIco.png" alt="">
 							</a>
 						</div>
-						<div class="logged hidden">
+						<div class="logged">
 							<div class="loggedWrap">
 								<div class="userName">
 									<div class="userFirst cfix">

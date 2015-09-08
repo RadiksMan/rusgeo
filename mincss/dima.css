@@ -21,6 +21,10 @@
   margin-left: 240px;
 }
 
+.right-content-wrap .index-slide {
+  margin-bottom: 22px;
+}
+
 .right-content-wrap .index-slide .slick-dots {
   bottom: 15px;
 }
