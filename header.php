@@ -176,15 +176,17 @@
 					</div>
 					<div class="basket-wrap">
 						<div class="basket cfix">
-							<div class="basketLeft">
-								<p>В корзине</p>
-								<p>
-									<span class="line">5</span><span class="line">шт</span>&nbsp;—&nbsp;<b><span>987 535</span><span>р</span></b>
-								</p>
-							</div>
-							<div class="basketright">
-								<img src="images/basketImg.png" alt="">
-							</div>
+                            <a href="#bucket" class="fancybox">
+    							<div class="basketLeft">
+    								<p>В корзине</p>
+    								<p>
+    									<span class="line">5</span><span class="line">шт</span>&nbsp;—&nbsp;<b><span>987 535</span><span>р</span></b>
+    								</p>
+    							</div>
+    							<div class="basketright">
+    								<img src="images/basketImg.png" alt="">
+    							</div>
+                            </a>
 							<div class="basketZakaz">
 								<a href="#">
 									<span>Оформить заказ</span>
@@ -264,7 +266,15 @@
                                         <li><a href="#">Cmon Evevrybody</a></li>
                                     </ul>
                                 </li>
-                                <li><a href="#"><span>Электроизмерительные приборы</span></a></li>
+                                <li><a href="#"><span>Электроизмерительные приборы</span></a>
+                                    <ul>
+                                        <li><a href="#">Теодолиты TOPCON</a></li>
+                                        <li><a href="#">Теодолиты Leica</a></li>
+                                        <li><a href="#">Теодолиты SOKKIL</a></li>
+                                        <li><a href="#">Теодолиты TOPCON</a></li>
+                                        <li><a href="#">Теодолиты Leica</a></li>
+                                    </ul>
+                                </li>
                                 <li><a href="#"><span>Измерители параметров окружающей среды</span></a></li>
                                 <li><a href="#"><span>Калибраторы технологических процессов</span></a>
                                     <ul>
