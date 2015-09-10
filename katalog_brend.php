@@ -1,11 +1,10 @@
-<div class="main katalog-page">
+<div class="main katalog-page katalog_brend">
     <div class="content-top-wrap cfix">
         <div class="mbox">
             <div class="breadcrumb-wrap">
                 <ol class="breadcrumb">
                   <li><a href="#">РУСГЕОКОМ</a></li>
-                  <li><a href="#">Электронные тахеометры</a></li>
-                  <li class="active">Тахеометры LEICA</li>
+                  <li class="active">Электронные теодолиты</li>
                 </ol>
             </div>
             <div class="left-column-wrap">
@@ -29,7 +28,7 @@
                                         <li><a href="#">Теодолиты TOPCON</a></li>
                                         <li><a href="#">Теодолиты Leica</a></li>
                                         <li><a href="#">Теодолиты SOKKIL</a></li>
-                                        <li><a href="#">Теодолиты TOPCON</a></li>
+                                        <li class="active"><a href="#">Теодолиты TOPCON</a></li>
                                         <li><a href="#">Теодолиты Leica</a></li>
                                     </ul>
                                 </li>
@@ -68,156 +67,212 @@
 
             <div class="right-content-wrap">
                 <div class="katalog-content">
-                    <div class="katalog_title">
-                        Электронные теодолиты RGK
+                    <div class="katalog_title katalog_brend_title">
+                        TOPCON
                     </div>
-                    <div class="katalog_filter">
-                        <div class="filter-text">Фильтр</div>
-                        <div class="filter_item">
-                            <div class="filter_item_button">
-                                <span>Цена</span>
-                            </div>
-                            <div class="filter_item_button_close">
-                            </div>
-                            <div class="filter_item_bottom">
-                                <div class="filter_item_bottom_check">
-                                    <label for="filter_item_1">
-                                        <input type="checkbox" name="filter_item" >
-                                        TOPCON
-                                    </label>
-                                </div>
-                                <div class="filter_item_bottom_check">
-                                    <label for="filter_item">
-                                        <input type="checkbox" name="filter_item" >
-                                        TOPCON
-                                    </label>
-                                </div>
-                                <hr class="hr">
-                                <div class="filter_item_bottom_check">
-                                    <label for="filter_item">
-                                        <input type="checkbox" name="filter_item" >
-                                        TOPCON
-                                    </label>
-                                </div>
-                                <div class="filter_item_bottom_check">
-                                    <label for="filter_item">
-                                        <input type="checkbox" name="filter_item" >
-                                        RGK
-                                    </label>
-                                </div>
-                                <div class="filter_item_bottom_check">
-                                    <label for="filter_item">
-                                        <input type="checkbox" name="filter_item" >
-                                        CST/Berger
-                                    </label>
-                                </div>
-                                <div class="filter_item_bottom_button">
-                                    <button class="filter_item_filtering">Применить</button>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="filter_item">
-                            <div class="filter_item_button">
-                                <span>Бренд</span>
-                            </div>
-                            <div class="filter_item_button_close">
-                            </div>
-                            <div class="filter_item_bottom">
-                                <div class="filter_item_bottom_check">
-                                    <label for="filter_item">
-                                        <input type="checkbox" name="filter_item" >
-                                        TOPCON
-                                    </label>
-                                </div>
-                                <div class="filter_item_bottom_check">
-                                    <label for="filter_item">
-                                        <input type="checkbox" name="filter_item" >
-                                        Guccie
-                                    </label>
-                                </div>
-                                <div class="filter_item_bottom_check">
-                                    <label for="filter_item">
-                                        <input type="checkbox" name="filter_item" >
-                                        Luccie
-                                    </label>
-                                </div>
-                                <div class="filter_item_bottom_check">
-                                    <label for="filter_item">
-                                        <input type="checkbox" name="filter_item" >
-                                        RGK
-                                    </label>
-                                </div>
-                                <div class="filter_item_bottom_check">
-                                    <label for="filter_item">
-                                        <input type="checkbox" name="filter_item" >
-                                        CST/Berger
-                                    </label>
-                                </div>
-                                <div class="filter_item_bottom_button">
-                                    <button class="filter_item_filtering">Применить</button>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="filter_item">
-                            <div class="filter_item_button">
-                                <span>Цвет</span>
-                            </div>
-                            <div class="filter_item_button_close">
-                            </div>
-                            <div class="filter_item_bottom">
-                                <div class="filter_item_bottom_check">
-                                    <label for="filter_item">
-                                        <input type="checkbox" name="filter_item" >
-                                        TOPCON
-                                    </label>
-                                </div>
-                                <div class="filter_item_bottom_check">
-                                    <label for="filter_item">
-                                        <input type="checkbox" name="filter_item" >
-                                        Guccie
-                                    </label>
-                                </div>
-                                <div class="filter_item_bottom_check">
-                                    <label for="filter_item">
-                                        <input type="checkbox" name="filter_item" >
-                                        Luccie
-                                    </label>
-                                </div>
-                                <div class="filter_item_bottom_check">
-                                    <label for="filter_item">
-                                        <input type="checkbox" name="filter_item" >
-                                        RGK
-                                    </label>
-                                </div>
-                                <div class="filter_item_bottom_check">
-                                    <label for="filter_item">
-                                        <input type="checkbox" name="filter_item" >
-                                        CST/Berger
-                                    </label>
-                                </div>
-                                <div class="filter_item_bottom_button">
-                                    <button class="filter_item_filtering">Применить</button>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="filter_reset" id="">
-                            <span>Сбросить фильтр</span>
-                        </div>
-                    </div>
+
                     <div class="katalog_products">
-                        <div class="katalog_products_top cfix">
-                            <div class="katalog_products_title">Всего <span>21</span> товар</div>
-                            <div class="katalog_products_button">
-                                <div class="katalog_products_button_select">
-                                    <select name="select_filter" id="select_filter">
-                                        <option value="popularity">по популярности</option>
-                                        <option value="popularity2">по популярности2</option>
-                                        <option value="popularity3">по популярности3</option>
-                                    </select>
+                        <div class="katalog_brend_text">
+                            <div class="katalog_brend_img">
+                                <img src="images/katalog_brend_img.png"  alt="">
+                            </div>
+                            <div class="katalog_brend_description">
+                                <p>Всемирно известный бренд электроинструмента Bosch принадлежит немецкому концерну Robert Bosch GmbH. Под этой маркой также выпускается бытовая техника, запчасти и компоненты для автопрома, строительные системы. Вся продукция соответствует девизу компании — «Качество в каждой детали».</p>
+                                <p>Начало компании было положено в 1886 году, когда инженер Роберт Бош открыл частную мастерскую в Штутгарте. Уже в первые десятилетия фирма специализировалась на изготовлении электрооборудования. С 1930-х годов был налажен выпуск электроинструмента.</p>
+                            </div>
+                        </div>
+                        <div class="katalog_brend_middle">
+                            <div class="katalog_brend_middle_title">Каталог TOPCON</div>
+                            <div class="kbm_wrap">
+                                <div class="kbm_row ">
+                                    <div class="kbm_item">
+                                        <div class="kbm_image">
+                                            <img src="images/kbm_image_1.png" alt="">
+                                        </div>
+                                        <div class="kbm_text"><span>Геодезические приемники</span></div>
+                                        <div class="kbm_description">
+                                            <p>Lorem ipsum dolor sit amet.</p>
+                                            <p>Lorem ipsum dolor sit.</p>
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti, explicabo.</p>
+                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste nobis facere quo, aperiam tempora. Perspiciatis.
+                                        </div>
+                                    </div>
+                                    <div class="kbm_item">
+                                        <div class="kbm_image">
+                                            <img src="images/kbm_image_1.png" alt="">
+                                        </div>
+                                        <div class="kbm_text"><span>Оптические теодолиты</span></div>
+                                        <div class="kbm_description">
+                                            <p>Lorem ipsum dolor sit amet.</p>
+                                            <p>Lorem ipsum dolor sit.</p>
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione, veritatis.</p>
+                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad, laboriosam, voluptatem. Qui facere, suscipit? Eum?
+                                        </div>
+                                    </div>
+                                    <div class="kbm_item">
+                                        <div class="kbm_image">
+                                            <img src="images/kbm_image_1.png" alt="">
+                                        </div>
+                                        <div class="kbm_text"><span>Трассоискатели</span></div>
+                                        <div class="kbm_description">
+                                            <p>Lorem ipsum dolor sit amet.</p>
+                                            <p>Lorem ipsum dolor sit.</p>
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore, nulla.</p>
+                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui, ad quis inventore iusto maiores cupiditate?
+                                        </div>
+                                    </div>
                                 </div>
-                                <div class="katalog_products_button_grid cfix">
-                                    <span class="icon icon_line"></span>
-                                    <span class="icon icon_grid active"></span>
+                                <div class="kbm_row ">
+                                    <div class="kbm_item">
+                                        <div class="kbm_image">
+                                            <img src="images/kbm_image_2.png" alt="">
+                                        </div>
+                                        <div class="kbm_text"><span>Электронные тахеометры</span></div>
+                                        <div class="kbm_description">
+                                            <p>Lorem ipsum dolor sit amet.</p>
+                                            <p>Lorem ipsum dolor sit.</p>
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti, explicabo.</p>
+                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste nobis facere quo, aperiam tempora. Perspiciatis.
+                                        </div>
+                                    </div>
+                                    <div class="kbm_item">
+                                        <div class="kbm_image">
+                                            <img src="images/kbm_image_2.png" alt="">
+                                        </div>
+                                        <div class="kbm_text"><span>Оптические нивелиры</span></div>
+                                        <div class="kbm_description">
+                                            <p>Lorem ipsum dolor sit amet.</p>
+                                            <p>Lorem ipsum dolor sit.</p>
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione, veritatis.</p>
+                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad, laboriosam, voluptatem. Qui facere, suscipit? Eum?
+                                        </div>
+                                    </div>
+                                    <div class="kbm_item">
+                                        <div class="kbm_image">
+                                            <img src="images/kbm_image_2.png" alt="">
+                                        </div>
+                                        <div class="kbm_text"><span>Георадары</span></div>
+                                        <div class="kbm_description">
+                                            <p>Lorem ipsum dolor sit amet.</p>
+                                            <p>Lorem ipsum dolor sit.</p>
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore, nulla.</p>
+                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui, ad quis inventore iusto maiores cupiditate?
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="kbm_row ">
+                                    <div class="kbm_item">
+                                        <div class="kbm_image">
+                                            <img src="images/kbm_image_1.png" alt="">
+                                        </div>
+                                        <div class="kbm_text"><span>Сканирующие системы</span></div>
+                                        <div class="kbm_description">
+                                            <p>Lorem ipsum dolor sit amet.</p>
+                                            <p>Lorem ipsum dolor sit.</p>
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti, explicabo.</p>
+                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste nobis facere quo, aperiam tempora. Perspiciatis.
+                                        </div>
+                                    </div>
+                                    <div class="kbm_item">
+                                        <div class="kbm_image">
+                                            <img src="images/kbm_image_1.png" alt="">
+                                        </div>
+                                        <div class="kbm_text"><span>Лазерные уровни</span></div>
+                                        <div class="kbm_description">
+                                            <p>Lorem ipsum dolor sit amet.</p>
+                                            <p>Lorem ipsum dolor sit.</p>
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione, veritatis.</p>
+                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad, laboriosam, voluptatem. Qui facere, suscipit? Eum?
+                                        </div>
+                                    </div>
+                                    <div class="kbm_item">
+                                        <div class="kbm_image">
+                                            <img src="images/kbm_image_1.png" alt="">
+                                        </div>
+                                        <div class="kbm_text"><span>GPS-навигаторы</span></div>
+                                        <div class="kbm_description">
+                                            <p>Lorem ipsum dolor sit amet.</p>
+                                            <p>Lorem ipsum dolor sit.</p>
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore, nulla.</p>
+                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui, ad quis inventore iusto maiores cupiditate?
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="kbm_row ">
+                                    <div class="kbm_item">
+                                        <div class="kbm_image">
+                                            <img src="images/kbm_image_2.png" alt="">
+                                        </div>
+                                        <div class="kbm_text"><span>Полевые контроллеры</span></div>
+                                        <div class="kbm_description">
+                                            <p>Lorem ipsum dolor sit amet.</p>
+                                            <p>Lorem ipsum dolor sit.</p>
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti, explicabo.</p>
+                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste nobis facere quo, aperiam tempora. Perspiciatis.
+                                        </div>
+                                    </div>
+                                    <div class="kbm_item">
+                                        <div class="kbm_image">
+                                            <img src="images/kbm_image_2.png" alt="">
+                                        </div>
+                                        <div class="kbm_text"><span>Цифровые нивелиры</span></div>
+                                        <div class="kbm_description">
+                                            <p>Lorem ipsum dolor sit amet.</p>
+                                            <p>Lorem ipsum dolor sit.</p>
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione, veritatis.</p>
+                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad, laboriosam, voluptatem. Qui facere, suscipit? Eum?
+                                        </div>
+                                    </div>
+                                    <div class="kbm_item">
+                                        <div class="kbm_image">
+                                            <img src="images/kbm_image_2.png" alt="">
+                                        </div>
+                                        <div class="kbm_text"><span>Беспилотные аппараты</span></div>
+                                        <div class="kbm_description">
+                                            <p>Lorem ipsum dolor sit amet.</p>
+                                            <p>Lorem ipsum dolor sit.</p>
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore, nulla.</p>
+                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui, ad quis inventore iusto maiores cupiditate?
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="kbm_row ">
+                                    <div class="kbm_item">
+                                        <div class="kbm_image">
+                                            <img src="images/kbm_image_1.png" alt="">
+                                        </div>
+                                        <div class="kbm_text"><span>Электронные теодолиты</span></div>
+                                        <div class="kbm_description">
+                                            <p>Lorem ipsum dolor sit amet.</p>
+                                            <p>Lorem ipsum dolor sit.</p>
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti, explicabo.</p>
+                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste nobis facere quo, aperiam tempora. Perspiciatis.
+                                        </div>
+                                    </div>
+                                    <div class="kbm_item">
+                                        <div class="kbm_image">
+                                            <img src="images/kbm_image_1.png" alt="">
+                                        </div>
+                                        <div class="kbm_text"><span>Лазерные дальномеры</span></div>
+                                        <div class="kbm_description">
+                                            <p>Lorem ipsum dolor sit amet.</p>
+                                            <p>Lorem ipsum dolor sit.</p>
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione, veritatis.</p>
+                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad, laboriosam, voluptatem. Qui facere, suscipit? Eum?
+                                        </div>
+                                    </div>
+                                    <div class="kbm_item">
+                                        <div class="kbm_image">
+                                            <img src="images/kbm_image_1.png" alt="">
+                                        </div>
+                                        <div class="kbm_text"><span>Программное обеспечение</span></div>
+                                        <div class="kbm_description">
+                                            <p>Lorem ipsum dolor sit amet.</p>
+                                            <p>Lorem ipsum dolor sit.</p>
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore, nulla.</p>
+                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui, ad quis inventore iusto maiores cupiditate?
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>

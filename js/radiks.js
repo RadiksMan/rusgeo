@@ -221,13 +221,45 @@ function filterShow(){
 
 }
 
-function filterCheckboxStyling(){
+function filterStyling(){
     if($('.filter_item .filter_item_bottom_check input').length >1){
         $('.filter_item .filter_item_bottom_check input').styler();
     }
+    if($(".katalog_products_button_select").length > 0){
+        $(".katalog_products_button_select select").styler();
+    }
 }
+
+function katalogButtonLineGrid(){
+    if($('.katalog_products_button_grid').length >0){
+        $('.icon.icon_line').click(function() {
+            $('.katalog_products_button_grid span').removeClass('active');
+            $(this).addClass('active');
+            $('.product-items-wrap').removeClass('grid').addClass('line');
+        });
+        $('.icon.icon_grid').click(function() {
+            $('.katalog_products_button_grid span').removeClass('active');
+            $(this).addClass('active');
+            $('.product-items-wrap').removeClass('line').addClass('grid');
+        });
+    }
+}
+
+function katalogBrendMiddleAcordion(){
+    $('.kbm_item').click(function() {
+        // if( $(this).hasClass('active')){
+        //     return false;
+        // }else{
+        //$('.kbm_row .kbm_item .kbm_description').slideUp(400).removeClass('active');
+        $(this).toggleClass('active').find('.kbm_description').slideToggle(400);
+        // }
+    });
+}
+
 $(document).ready(function() {
-    filterCheckboxStyling();
+    katalogBrendMiddleAcordion();
+    katalogButtonLineGrid();
+    filterStyling();
     filterShow();
     navigationBlockAcordion();
     AddCart(); //!\\
@@ -239,6 +271,7 @@ $(document).ready(function() {
     headeSelect();
     productItemsHeightElem($('.reccomend-item .product-item'))
     productItemsHeightElem($('.popular-item .product-item'))
+    productItemsHeightElem($('.katalog-item .product-item'))
     BrensSliderIndex();
     acordionIndex();
     loggedClick();

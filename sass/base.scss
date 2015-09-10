@@ -64,7 +64,7 @@ p{margin:0;}
 /* /base typo*/
 
 /* wraps styling*/
-.mbox{min-width:960px;max-width:1600px;margin:0 auto;position:relative;z-index:1;}
+.mbox{min-width:1024px;max-width:1600px;margin:0 auto;position:relative;z-index:1;}
 .mbox:after, .cfix:after{content:"";clear:both;font-size:1px;line-height:1px;height:0;overflow:hidden;display:block;}
 /* /wraps styling*/
 
@@ -117,3 +117,15 @@ p{margin:0;}
     }
 
 /* /button styles */
+/*styling checkbox*/
+.jq-checkbox{
+    background: #f8f8f8;overflow: inherit !important;
+    &.checked{    border: 1px solid #6fa0b4;
+        .jq-checkbox__div{
+            width: 14px;height: 14px;margin: 0;box-shadow: none;background: #b1def0;background: linear-gradient(to bottom, #b1def0 0%,#6fa0b4 100%);position: relative;
+            &:after{
+                position: absolute;content: "";width: 16px;height: 14px;background: url('../images/checked_img.svg') center center no-repeat;top: -3px;left: 1px;
+            }
+        }
+    }
+}
