@@ -801,7 +801,6 @@
 }
 
 .pickup{
-
     .pickup_sub_title{padding-bottom: 5px;
         span{display: inline-block;vertical-align: middle;font-size:16px;}
         .jq-selectbox select{border:none;}
@@ -859,4 +858,80 @@ top: 50%;transform: translate(-50%,-50%);}
     }
     .devilary_company{padding-bottom: 53px;}
     ol{padding-top: 9px;line-height: 23px;font-style: 14px;}
+}
+.oplata_wrap{padding-left: 10px;padding-right: 10px;padding-bottom: 250px;
+    .title{padding-top: 20px;}
+    .pickup_title{color: #38393a;font-size: 22px;font-style: italic;}
+    .oplata_block{padding-top: 27px;border-bottom:1px solid #dddde0;padding-bottom: 33px;}
+    .pickup_sub_title{padding-top: 15px;padding-left: 24px;}
+    .pickup_adres_wrap{margin-left: 27px;min-height: 99px;}
+    .pickup_adres_row{padding-bottom: 7px;}
+    .pickup_adres_show_more_text{padding-top: 10px;}
+    .oplata_block.ur_lica{padding-top: 51px;border-bottom:none;
+    }
+}
+.contact_wrap{padding-left: 10px;padding-right: 10px;
+    .title{padding-top: 23px;}
+
+    .contact_side{float: left;width: 48.7%}
+    .contact_tel_wrap{padding-top: 5px;
+        .contact_tel{padding-left: 40px;background: url('../images/contact_tel.png') 0.6% center no-repeat;padding: 7px 0px 7px 40px;
+            a{text-decoration: none;font-size: 16px;color: #38393a;}
+        }
+    }
+    .contact_other{padding-top: 20px;
+        &>*{padding: 7px 0px 7px 40px;
+            a{font-size: 16px;color: #37728b; &:hover{text-decoration: none;}}
+        }
+        .contact_other_skype{background: url('../images/contact_skype.png') 0.9% center no-repeat;}
+        .contact_other_icq{background: url('../images/contact_icq.png') 0.9% center no-repeat;}
+        .contact_other_mail{background: url('../images/contact_email.png') 0.9% center no-repeat;}
+    }
+    .contact_text{font-size: 14px;color: #38393a;padding-top: 29px;line-height: 21px;padding-bottom: 31px;
+    }
+
+    .form_title{font-family: "PT Sans",sans-serif;color: #38393a;font-size: 24px;padding-bottom: 24px;}
+    .contact_form_wrap{max-width: 450px;
+        .contact_form_row{
+            input{width: 100%;font-size: 18px;color: #a4a4a4;padding: 13px 0px 13px 23px;font-family: "open sans",sans-serif;border:none;outline: none;resize:none;border:1px solid #dddde0;border-bottom:none;}
+            textarea{width: 100%;font-size: 18px;color: #a4a4a4;padding: 13px 0px 13px 23px;font-family: "open sans",sans-serif;border:none;outline: none;resize:none;border:1px solid #dddde0;}
+            .contact_form_submit{width: auto;padding: 0;text-transform: none;min-width: auto;font-size: 18px;color: white;font-family: PT Sans,sans-setif;padding: 0px 31px;height: 44px;line-height: 44px;margin-top: 13px;border:none;cursor: pointer;
+                &:hover{background-color: #37728b;}
+            }
+        }
+    }
+}
+.contact_ya_map{width: 100%;float: left;margin-bottom: 275px;position: relative;
+    .contact_ya_map_img{left: 40px;position: absolute;bottom: -24px;}
+    .ymaps-2-1-29-copyright_logo_no,.ymaps-2-1-29-controls__control,.ymaps-2-1-29-islets_gotoymaps,.ymaps-2-1-29-controls__toolbar_left{display: none;}
+}
+
+.news_wrap.news_page_wrap{padding: 0;
+    .title{padding-left: 10px;padding-right: 10px;padding-top: 2px;padding-bottom: 0px;}
+
+
+    .news_items{padding-bottom: 30px;border-bottom:5px solid #ecf0f1;padding-top: 45px;
+        &:last-child{border-bottom: none;}
+    }
+    .news_item{padding-left: 10px;padding-right: 10px;border-right:1px solid transparent;border-left:1px solid transparent;
+        &:first-child{}
+        &:hover{background-color: #f6f8f8;border-right:1px solid #ecf0f1;border-left:1px solid #ecf0f1}
+    }
+    .news_item_date{padding-top: 10px;padding-bottom: 0;}
+    .news_item_title{font-weight: bold;}
+    .news_item_image{margin-bottom: 12px;}
+}
+
+.about_company_inside_wrap{padding-bottom: 220px;padding-top: 14px;
+    .about_company_inside_img_wrap{text-align: center;
+        .about_company_inside_img_text{    margin-top: -14px;
+            span{border:5px solid #fff;background-color: #c5dbcc;font-family: "PT Sans",sans-serif;color: #fff;font-size: 36px;font-weight: bold;    padding: 2px 15px;}
+        }
+    }
+    .seo_text{padding-left: 10px;padding-right: 10px;
+        h5{font-style: italic;font-size: 23px;color: #4e5050;text-align: center;font-weight: normal;padding-top: 23px;padding-left: 30px;padding-right: 30px;line-height: 30px;padding-bottom: 44px;}
+    }
+
+    .brend_wrap {padding: 29px 10px 0px;}
+    .brend_title{margin-bottom: 17px;}
 }
