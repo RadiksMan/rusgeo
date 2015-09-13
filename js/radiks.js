@@ -18,11 +18,11 @@ function navHover(){
         $(this).find('.nav-menu').slideDown('300');
     });
     $('.nav_wrap').mouseleave(function() {
-            if($(this).hasClass('menuShow')){
-                $(this).removeClass('menuShow');
-                $(this).find('.nav-title').removeClass('active');
-                $(this).find('.nav-menu').slideUp('300');
-            }
+        if($(this).hasClass('menuShow')){
+            $(this).removeClass('menuShow');
+            $(this).find('.nav-title').removeClass('active');
+            $(this).find('.nav-menu').slideUp('300');
+        }
     });
 }
 function navSearch(){
