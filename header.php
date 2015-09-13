@@ -20,7 +20,6 @@
 	<script src="js/jquery-1.10.0.min.js" type="text/javascript"></script>
 
 
-
 	<script src="js/jquery.validate.min.js" type="text/javascript"></script>
 
 	<link rel="stylesheet" type="text/css" href="fancybox/jquery.fancybox.css" media="all" />

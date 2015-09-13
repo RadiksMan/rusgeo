@@ -61,6 +61,7 @@ body {
   max-width: 2048px;
   margin: 0 auto;
   height: auto !important;
+  min-width: 1024px;
 }
 
 img {

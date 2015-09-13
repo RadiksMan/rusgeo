@@ -11,3 +11,4 @@ Trade-in.psd - trade_in
 Информация.psd - information
 О компании.psd - about_company.php
 Доставка.psd - devilary.php
+О компании-внутренняя.psd - about_company_inside

@@ -40,7 +40,9 @@ body{min-height:100%;
     position:relative;
     max-width: 2048px;
     margin:0 auto;
-    height:auto!important;}
+    height:auto!important;
+    min-width: 1024px;
+}
 img{vertical-align:bottom;
     border:0;
     max-width:100%;}
