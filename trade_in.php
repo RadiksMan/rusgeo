@@ -13,6 +13,14 @@
         </div>
     </div>
     <div class="trade_in_bg">
+        <div class="trade_in_bg_title">
+            <div class="trade_in_bg_title_top">
+                Обмен <span class="red">старого</span> оборудования на <span class="green">новое</span>
+            </div>
+            <div class="trade_in_bg_title_bottom">
+                Избавьтесь от вышедшей из строя или устаревшей техники, получите компенсацию и приобретите новые приборы по программе Trade In (Трейд Ин) в РУСГЕОКОМ.
+            </div>
+        </div>
         <div class="trade_in_bg_center_img">
             <img src="images/trade_in_bg_center_img.png"  alt="">
         </div>

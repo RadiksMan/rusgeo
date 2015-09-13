@@ -100,6 +100,7 @@ function BrensSliderIndex(){
 }
 
 function productItemsHeightElem(item){
+
     var height = 0;
     item.each(function(){
        var itemHeight = $(this).find('.product-item-wrapper').outerHeight();
@@ -255,8 +256,59 @@ function katalogBrendMiddleAcordion(){
         // }
     });
 }
+function block_product_item_one_height(){
+    if($('.block_product_item').length > 0){
+        setTimeout(function(){
+             var height = 0;
+            $('.block_product_item').each(function(){
+                var itemHeight = $(this).outerHeight();
+                if(itemHeight>height){
+                    height = itemHeight;
+                }
+             });
+             $('.block_product_item').height(height)
+        },100)
+    }
+;
+}
+function block_information_row_one_height(){
+    if($('.information_row').length > 0){
+        setTimeout(function(){
+             var height = 0;
+            $('.information_row').each(function(){
+                var itemHeight = $(this).outerHeight();
+                if(itemHeight>height){
+                    height = itemHeight;
+                }
+             });
+             $('.information_row').height(height)
+        },100)
+    }
+}
+
+function pikupSelectWrap(){
+    function pikupSelect(){
+        var selected = $('#pickup').val();
+        $('.pickup_adres_wrap div').removeClass('active');
+        $('.pickup_adres_wrap').find("#"+selected).addClass('active');
+    }
+    pikupSelect();
+    $(document).on('change', '#pickup', function() {
+        pikupSelect();
+    });
+    $('.pickup_adres_show_more_title').click(function() {
+        $(this).toggleClass('active');
+    });
+
+    $('.pickup_sub_title select').styler();
+}
+
+
 
 $(document).ready(function() {
+    pikupSelectWrap();
+    block_information_row_one_height();
+    block_product_item_one_height();
     katalogBrendMiddleAcordion();
     katalogButtonLineGrid();
     filterStyling();
@@ -281,6 +333,7 @@ $(document).ready(function() {
     ratingScript();
 });
 $(window).resize(function() {
-    productItemsHeightElem($('.reccomend-item .product-item'))
-    productItemsHeightElem($('.popular-item .product-item'))
+    productItemsHeightElem($('.reccomend-item .product-item'));
+    productItemsHeightElem($('.popular-item .product-item'));
+    block_product_item_one_height();
 });
