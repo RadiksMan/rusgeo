@@ -1,4 +1,5 @@
 <div class="zHiddenBlock">
+
 	<div id="bucket">
     <!-- function AddCart() -->
        <div class="bucket_wrap bucket_popup cfix">
@@ -79,4 +80,9 @@
             </div>
        </div>
     </div>
+
+    <div id="serailPopup">
+
+    </div>
+
 </div>

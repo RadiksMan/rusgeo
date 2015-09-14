@@ -62,6 +62,12 @@ function cardSlick(){
 
 };
 
+function cardPopup(){
+    $('.button-serial').fancybox({
+
+    });
+};
+
 // /card
 
 $(document).ready(function() {
@@ -75,6 +81,7 @@ $(document).ready(function() {
     // card call
 
     cardSlick();
+    cardPopup();
 
     // /card call
 

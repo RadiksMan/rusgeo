@@ -140,7 +140,7 @@
                                     788 099 ,-
                                 </div>
                                 <div class="card-item-serial-link-wrap">
-                                    <a href="#serailPopup" class="button button-serial fancybox">
+                                    <a href="#serailPopup" class="button button-serial">
                                         <span>Выбор серии</span>
                                         <span class="icon white-arrow-serial-icon"></span>
                                     </a>
