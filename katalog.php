@@ -215,10 +215,10 @@
                                         <option value="popularity3">по популярности3</option>
                                     </select>
                                 </div>
-<!--                                 <div class="katalog_products_button_grid cfix">
+                                <div class="katalog_products_button_grid cfix">
                                     <span class="icon icon_line"></span>
                                     <span class="icon icon_grid active"></span>
-                                </div> -->
+                                </div>
                             </div>
                         </div>
                         <div class="product-items-wrap katalog-item grid">
