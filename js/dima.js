@@ -64,7 +64,17 @@ function cardSlick(){
 
 function cardPopup(){
     $('.button-serial').fancybox({
-
+        wrapCSS:'serial-fancy-wrap',
+        padding:0,
+        fitToView:false,
+        autoSize:true,
+        helpers:  {
+            overlay : {
+                css:{
+                    'background-image':'none'
+                }
+            }
+        }
     });
 };
 
