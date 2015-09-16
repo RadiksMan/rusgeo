@@ -79,4 +79,93 @@
             </div>
        </div>
     </div>
+
+    <div id="application_for_rent">
+        <div class="application_for_rent_wrap rent_popup">
+            <form action="" name="">
+                <!-- function application_for_rent_Upload() -->
+                <div class="title">Заявка на аренду</div>
+                <div class="application_for_rent_row">
+                    <span>Ваше имя</span>
+                    <input type="text" name="application_for_rent_name">
+                </div>
+                <div class="application_for_rent_row">
+                    <span>Контактный телефон</span>
+                    <input type="text" name="application_for_rent_tel">
+                </div>
+                <div class="application_for_rent_row">
+                    <span>Сообщение</span>
+                    <textarea name="application_for_rent_text" id="" cols="30" rows="3"></textarea>
+                </div>
+                <div class="application_for_rent_row">
+                    <span>Прикрепить файлы</span>
+                    <script type="text/template" id="qq-template-manual-trigger">
+                           <div class="qq-uploader-selector qq-uploader" qq-drop-area-text="Перетащите файлы в эту область или">
+                               <div class="qq-total-progress-bar-container-selector qq-total-progress-bar-container">
+                                   <div role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" class="qq-total-progress-bar-selector qq-progress-bar qq-total-progress-bar"></div>
+                               </div>
+                               <div class="qq-upload-drop-area-selector qq-upload-drop-area" qq-hide-dropzone>
+                                   <span class="qq-upload-drop-area-text-selector"></span>
+                               </div>
+                               <div class="buttons">
+                                   <div class="qq-upload-button-selector qq-upload-button">
+                                       <div>кликните для загрузки</div>
+                                   </div>
+                                   <button type="button" id="trigger-upload" class="btn btn-primary">
+                                       <i class="icon-upload icon-white"></i> Загрузить
+                                   </button>
+                               </div>
+
+                               <ul class="qq-upload-list-selector qq-upload-list" aria-live="polite" aria-relevant="additions removals">
+                                   <li>
+
+                                       <img class="qq-thumbnail-selector" qq-max-size="100" qq-server-scale>
+                                       <span class="qq-upload-file-selector qq-upload-file"></span>
+                                       <input class="qq-edit-filename-selector qq-edit-filename" tabindex="0" type="text">
+
+                                       <button type="button" class="qq-btn qq-upload-cancel-selector qq-upload-cancel"></button>
+
+                                   </li>
+                               </ul>
+
+                               <dialog class="qq-alert-dialog-selector">
+                                   <div class="qq-dialog-message-selector"></div>
+                                   <div class="qq-dialog-buttons">
+                                       <button type="button" class="qq-cancel-button-selector">Close</button>
+                                   </div>
+                               </dialog>
+
+                               <dialog class="qq-confirm-dialog-selector">
+                                   <div class="qq-dialog-message-selector"></div>
+                                   <div class="qq-dialog-buttons">
+                                       <button type="button" class="qq-cancel-button-selector">No</button>
+                                       <button type="button" class="qq-ok-button-selector">Yes</button>
+                                   </div>
+                               </dialog>
+
+                               <dialog class="qq-prompt-dialog-selector">
+                                   <div class="qq-dialog-message-selector"></div>
+                                   <input type="text">
+                                   <div class="qq-dialog-buttons">
+                                       <button type="button" class="qq-cancel-button-selector">Cancel</button>
+                                       <button type="button" class="qq-ok-button-selector">Ok</button>
+                                   </div>
+                               </dialog>
+                           </div>
+                    </script>
+
+                    <div id="fine-uploader-manual-trigger"></div>
+                </div>
+                <div class="application_for_rent_row robot">
+                  <span>Вы не робот?</span>&nbsp;&nbsp;&nbsp;&nbsp;<div class="robot_kapcha"><img src="images/capcha_img.png" alt=""></div>   <span>&nbsp;=&nbsp; </span> <input type="text" >
+                </div>
+                <div class="application_for_rent_row submit">
+                    <input type="submit" placeholder="Отправить заявку" class="button">
+                </div>
+
+            </form>
+
+
+        </div>
+    </div>
 </div>
