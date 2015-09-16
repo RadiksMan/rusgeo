@@ -82,7 +82,14 @@
     </div>
 
     <div id="serailPopup">
-
+        <div class="serial-popup-main">
+            <div class="serial-popup-title">
+                Выбор серии
+            </div>
+            <div class="serial-popup-form-wrap">
+                <form action=""></form>
+            </div>
+        </div>
     </div>
 
 </div>
