@@ -76,6 +76,61 @@ function cardPopup(){
             }
         }
     });
+
+    $('.serial-popup-rows-wrap .serial-form-row').eq(0).find('.serial-form-acrodion-top label input').
+    prop('checked',true);
+    $('.serial-popup-rows-wrap .serial-form-row').eq(0).find('.serial-form-acrodion-top').addClass('active');
+    $('.serial-popup-rows-wrap .serial-form-row').eq(0).find('.serial-form-acordion-bottom').slideDown(300);
+    $('.serial-popup-rows-wrap .serial-form-row').eq(0).find('.serial-form-acrodion-top label').addClass('active');
+    sumSerial();
+
+    function sumSerial(){
+        var sum = 0;
+        $('.serial-label.active').each(function(){
+            var val = $(this).find('.input-price').data('price');
+            sum=sum+val;
+        });
+        var str = $('<span></span>');
+        var sum = sum.toString();
+        for(m=1;m<=sum.length;m++){
+            str.prepend(sum.charAt(sum.length-m));
+            if((m%3==0)&&(m!=sum.length)){
+                str.prepend('&nbsp;');
+            }
+        }
+        var allSum=str.text()+' .-';
+        $('.serial-sum-val').text(allSum);
+    };
+
+    $(document).on('change','.serial-label input',function(){
+        var parent = $(this).parents('.serial-label');
+        console.log(parent.attr('class'));
+        if(parent.is('.active')){
+            parent.removeClass('active');
+        }
+        else{
+            parent.addClass('active');
+        }
+        sumSerial();
+    });
+
+    $(document).on('change','.serial-form-acrodion-top input', function(){
+
+        $('.serial-form-acrodion-top').removeClass('.active');
+        $('.serial-form-acrodion-top .serial-label').removeClass('active');
+        $('.serial-form-acordion-bottom input').prop('checked',false);
+        $('.serial-form-acordion-bottom .serial-label').removeClass('active');
+        $('.serial-form-acordion-bottom').slideUp(300);
+
+        $(this).parents('.serial-form-acrodion-top').find('.serial-label').addClass('active');
+
+        if($(this).parents('.serial-form-acordion-wrap').is('.has-bottom')){
+            $(this).parents('.serial-form-acrodion-top').addClass('active');
+            $(this).parents('.serial-form-acordion-wrap').find('.serial-form-acordion-bottom').slideDown(300);
+        }
+        sumSerial();
+    });
+
 };
 
 // /card

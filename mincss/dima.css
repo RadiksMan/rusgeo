@@ -347,6 +347,10 @@
   padding: 50px 30px 30px 30px;
 }
 
+.serial-popup-main .serial-form-row:last-child .serial-form-acordion-wrap {
+  border-width: 0;
+}
+
 .serial-popup-main .serial-form-acordion-wrap {
   border-bottom: 1px solid #d7d7d7;
 }
@@ -368,6 +372,14 @@
   -webkit-transform: translate3d(0, -50%, 0);
 }
 
+.serial-popup-main .serial-form-acordion-wrap.has-bottom .serial-form-acrodion-top.active:after {
+  display: none;
+}
+
+.serial-popup-main .serial-form-acordion-bottom {
+  display: none;
+}
+
 .serial-popup-main .serial-popup-rows-wrap {
   border: 1px solid #d7d7d7;
 }
@@ -375,7 +387,11 @@
 .serial-popup-main .serial-label {
   display: block;
   padding: 10px;
-  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.serial-popup-main .serial-label.active .input-price {
+  color: #38393a;
 }
 
 .serial-popup-main .serial-popup-title {
@@ -396,7 +412,10 @@
   overflow: hidden;
   font-size: 0;
   margin: 0;
-  display: none;
+  position: absolute;
+  left: 0;
+  top: 0;
+  opacity: 0;
 }
 
 .serial-popup-main .input-check-wrap input + .radio-main {
@@ -466,11 +485,64 @@
 .serial-popup-main .input-description .input-description-bottom {
   font-weight: 300;
   font-size: 14px;
+  line-height: 18px;
 }
 
 .serial-popup-main .input-price {
   display: inline-block;
   vertical-align: middle;
+  font-weight: 700;
+  font-size: 14px;
+  color: #868787;
+}
+
+.serial-popup-main .serial-form-row.bottom {
+  padding-top: 10px;
+}
+
+.serial-popup-main .serial-form-row.bottom .serial-form-sum {
+  text-align: center;
+  margin-bottom: 20px;
+  font-weight: 300;
+  font-size: 14px;
+  color: #38393a;
+}
+
+.serial-popup-main .serial-form-row.bottom .serial-form-sum .serial-sum-val {
+  font-weight: 700;
+  font-size: 30px;
+}
+
+.serial-popup-main .serial-form-row.bottom .serial-form-submit {
+  text-align: center;
+}
+
+.serial-popup-main .serial-form-row.bottom .serial-form-submit .button.serial-submit {
+  max-width: 130px;
+  border: none;
+  font-size: 14px;
+  text-shadow: 0 -1px 1px rgba(0, 0, 0, 0.26);
+  -webkit-text-shadow: 0 -1px 1px rgba(0, 0, 0, 0.26);
+  text-transform: none;
+  cursor: pointer;
+}
+
+.serial-popup-main .serial-form-row.bottom .serial-form-submit .button.serial-submit:hover {
+  background-color: #bf1b00;
+  color: #fff;
+}
+
+.serial-popup-main .serial-form-row.bottom .serial-form-submit .button.serial-submit .icon {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 5px;
+}
+
+.serial-popup-main .serial-form-row.bottom .serial-form-submit .button.serial-submit .icon.basket-icon {
+  width: 20px;
+  height: 18px;
+  background-image: url(../images/basketImg.png);
+  background-size: 100% 100%;
 }
 
 /* /card */

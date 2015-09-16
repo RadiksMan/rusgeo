@@ -190,7 +190,7 @@
                                             <p class="input-description-top">R4 with Radio</p>
                                             <p class="input-description-bottom">Модернизация GPS-приемника R4 до GPSG</p>
                                         </span>
-                                        <span class="input-price">788 099 ,-</span>
+                                        <span class="input-price" data-price="788099">788 099 .-</span>
                                     </label>
                                 </div>
                                 <div class="serial-form-acordion-bottom">
@@ -203,7 +203,7 @@
                                             <span class="input-description">
                                                 <p class="input-description-top">Galileo</p>
                                             </span>
-                                            <span class="input-price">2000 .-</span>
+                                            <span class="input-price" data-price="2000">2000 .-</span>
                                         </label>
                                     </div>
                                     <div class="serial-form-acordion-item">
@@ -215,7 +215,7 @@
                                             <span class="input-description">
                                                 <p class="input-description-top">BeiDou</p>
                                             </span>
-                                            <span class="input-price">1650 .-</span>
+                                            <span class="input-price" data-price="1650">1650 .-</span>
                                         </label>
                                     </div>
                                     <div class="serial-form-acordion-item">
@@ -227,7 +227,7 @@
                                             <span class="input-description">
                                                 <p class="input-description-top">BeiDou</p>
                                             </span>
-                                            <span class="input-price">22900 .-</span>
+                                            <span class="input-price" data-price="22900">22900 .-</span>
                                         </label>
                                     </div>
                                 </div>
@@ -245,7 +245,7 @@
                                             <p class="input-description-top">R4 GNSS</p>
                                             <p class="input-description-bottom">Приемник Base</p>
                                         </span>
-                                        <span class="input-price">788 099 ,-</span>
+                                        <span class="input-price" data-price="788099">788 099 .-</span>
                                     </label>
                                 </div>
                                 <div class="serial-form-acordion-bottom">
@@ -258,7 +258,7 @@
                                             <span class="input-description">
                                                 <p class="input-description-top">Galileo</p>
                                             </span>
-                                            <span class="input-price">2000 .-</span>
+                                            <span class="input-price" data-price="2000">2000 .-</span>
                                         </label>
                                     </div>
                                     <div class="serial-form-acordion-item">
@@ -270,7 +270,7 @@
                                             <span class="input-description">
                                                 <p class="input-description-top">BeiDou</p>
                                             </span>
-                                            <span class="input-price">1650 .-</span>
+                                            <span class="input-price" data-price="1650">1650 .-</span>
                                         </label>
                                     </div>
                                     <div class="serial-form-acordion-item">
@@ -282,7 +282,7 @@
                                             <span class="input-description">
                                                 <p class="input-description-top">BeiDou</p>
                                             </span>
-                                            <span class="input-price">22900 .-</span>
+                                            <span class="input-price" data-price="22900">22900 .-</span>
                                         </label>
                                     </div>
                                 </div>
@@ -300,7 +300,7 @@
                                             <p class="input-description-top">Опция Transmit (410-470 MHz)</p>
                                             <p class="input-description-bottom">Модернизация радио до передатчика для GPS-приемников R4</p>
                                         </span>
-                                        <span class="input-price">788 099 ,-</span>
+                                        <span class="input-price" data-price="788099">788 099 ,-</span>
                                     </label>
                                 </div>
                             </div>
@@ -317,7 +317,7 @@
                                             <p class="input-description-top">R4 GNSS</p>
                                             <p class="input-description-bottom">Приемник Base</p>
                                         </span>
-                                        <span class="input-price">788 099 ,-</span>
+                                        <span class="input-price" data-price="788099">788 099 ,-</span>
                                     </label>
                                 </div>
                                 <div class="serial-form-acordion-bottom">
@@ -330,7 +330,7 @@
                                             <span class="input-description">
                                                 <p class="input-description-top">Galileo</p>
                                             </span>
-                                            <span class="input-price">2000 .-</span>
+                                            <span class="input-price" data-price="2000">2000 .-</span>
                                         </label>
                                     </div>
                                     <div class="serial-form-acordion-item">
@@ -342,7 +342,7 @@
                                             <span class="input-description">
                                                 <p class="input-description-top">BeiDou</p>
                                             </span>
-                                            <span class="input-price">1650 .-</span>
+                                            <span class="input-price" data-price="1650">1650 .-</span>
                                         </label>
                                     </div>
                                     <div class="serial-form-acordion-item">
@@ -354,7 +354,7 @@
                                             <span class="input-description">
                                                 <p class="input-description-top">BeiDou</p>
                                             </span>
-                                            <span class="input-price">22900 .-</span>
+                                            <span class="input-price" data-price="22900">22900 .-</span>
                                         </label>
                                     </div>
                                 </div>
@@ -367,7 +367,7 @@
                             <span class="serial-sum-val"></span>
                         </div>
                         <div class="serial-form-submit">
-                            <button type="submit" class="button">
+                            <button type="submit" class="button serial-submit">
                                 <span class="icon basket-icon"></span>
                                 <span class="serial-submit-text">Купить</span>
                             </button>
