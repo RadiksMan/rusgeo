@@ -12,17 +12,33 @@ function loggedClick(){
     });
 }
 function navHover(){
+
+    var padHeight = $('.nav_1 .nav-menu').outerHeight();
+    $('.nav-menu').hide();
     $('.nav_wrap').mouseover(function(){
         $(this).addClass('menuShow');
         $(this).find('.nav-title').addClass('active');
         $(this).find('.nav-menu').slideDown('300');
+
+        if($(this).hasClass('menuShow') && $(this).hasClass('nav_1')){
+            $('.left-column-wrap').addClass('padding');
+
+            $('.left-column-wrap').addClass('padding');
+            $('.left-column-wrap').css("padding-top", padHeight);
+        }
     });
     $('.nav_wrap').mouseleave(function() {
-        if($(this).hasClass('menuShow')){
-            $(this).removeClass('menuShow');
-            $(this).find('.nav-title').removeClass('active');
-            $(this).find('.nav-menu').slideUp('300');
-        }
+        $('.nav_wrap').removeClass('menuShow');
+        $('.nav-menu:not(.nav-column)').slideUp('100');
+        $('.nav-title').removeClass('active');
+
+            if($(this).hasClass('menuShow')){
+                $(this).removeClass('menuShow');
+                $(this).find('.nav-title').removeClass('active');
+                $(this).find('.nav-menu').slideUp('300');
+            }
+        $('.left-column-wrap').removeClass('padding');
+        $('.left-column-wrap').css("padding-top", 0);
     });
 }
 function navSearch(){
@@ -316,9 +332,45 @@ function pikupSelectWrap(){
     $('.pickup_sub_title select').styler();
 }
 
+function bucketRadioStyler(){
+    if($('.radio_button_normal').length > 0){
+        $('.radio_button_normal').styler();
+    }
+    if($('.select_white').length > 0){
+        $('.select_white').styler();
+    }
+}
 
+function devilary_company_radio_form(){
+    $(document).on('click','.devilary_company_row label',function(){
+        $('.devilary_company_form').removeClass('active');
+        var item = $(this).find('.checked').parent().parent().index();
+        $('.devilary_company_form').eq(item).addClass('active');
+    });
+}
+
+function application_for_rent_Upload(){
+    var manualUploader = new qq.FineUploader({
+        element: document.getElementById('fine-uploader-manual-trigger'),
+        template: 'qq-template-manual-trigger',
+        request: {
+            endpoint: '/uploads'
+        },
+        thumbnails: {
+        },
+        autoUpload: false,
+        debug: true
+    });
+
+    qq(document.getElementById("trigger-upload")).attach("click", function() {
+        manualUploader.uploadStoredFiles();
+    });
+}
 
 $(document).ready(function() {
+    application_for_rent_Upload();
+    devilary_company_radio_form();
+    bucketRadioStyler();
     block_news_items_one_height();
     pikupSelectWrap();
     block_information_row_one_height();

@@ -11,7 +11,7 @@
             <div class="left-column-wrap">
                 <div class="navigation_block">
                     <div class="navigation_block_wrap">
-                        <div class="nav-menu">
+                        <div class="nav-menu nav-column">
                             <ul>
                                 <li><a href="#"><span>Геодезические приемники</span></a></li>
                                 <li><a href="#"><span>Электронные тахеометры</span></a></li>
@@ -215,10 +215,10 @@
                                         <option value="popularity3">по популярности3</option>
                                     </select>
                                 </div>
-                                <div class="katalog_products_button_grid cfix">
+<!--                                 <div class="katalog_products_button_grid cfix">
                                     <span class="icon icon_line"></span>
                                     <span class="icon icon_grid active"></span>
-                                </div>
+                                </div> -->
                             </div>
                         </div>
                         <div class="product-items-wrap katalog-item grid">
