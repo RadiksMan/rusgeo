@@ -89,37 +89,19 @@
                                         <div class="kbm_image">
                                             <img src="images/kbm_image_1.png" alt="">
                                         </div>
-                                        <div class="kbm_text"><span>Геодезические приемники</span></div>
-                                        <div class="kbm_description">
-                                            <p>Lorem ipsum dolor sit amet.</p>
-                                            <p>Lorem ipsum dolor sit.</p>
-                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti, explicabo.</p>
-                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste nobis facere quo, aperiam tempora. Perspiciatis.
-                                        </div>
+                                        <div class="kbm_text"><a href="#">Геодезические приемники</a></div>
                                     </div>
                                     <div class="kbm_item">
                                         <div class="kbm_image">
                                             <img src="images/kbm_image_1.png" alt="">
                                         </div>
-                                        <div class="kbm_text"><span>Оптические теодолиты</span></div>
-                                        <div class="kbm_description">
-                                            <p>Lorem ipsum dolor sit amet.</p>
-                                            <p>Lorem ipsum dolor sit.</p>
-                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione, veritatis.</p>
-                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad, laboriosam, voluptatem. Qui facere, suscipit? Eum?
-                                        </div>
+                                        <div class="kbm_text"><a href="#">Оптические теодолиты</a></div>
                                     </div>
                                     <div class="kbm_item">
                                         <div class="kbm_image">
                                             <img src="images/kbm_image_1.png" alt="">
                                         </div>
-                                        <div class="kbm_text"><span>Трассоискатели</span></div>
-                                        <div class="kbm_description">
-                                            <p>Lorem ipsum dolor sit amet.</p>
-                                            <p>Lorem ipsum dolor sit.</p>
-                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore, nulla.</p>
-                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui, ad quis inventore iusto maiores cupiditate?
-                                        </div>
+                                        <div class="kbm_text"><a href="#">Трассоискатели</a></div>
                                     </div>
                                 </div>
                                 <div class="kbm_row ">
@@ -127,37 +109,19 @@
                                         <div class="kbm_image">
                                             <img src="images/kbm_image_2.png" alt="">
                                         </div>
-                                        <div class="kbm_text"><span>Электронные тахеометры</span></div>
-                                        <div class="kbm_description">
-                                            <p>Lorem ipsum dolor sit amet.</p>
-                                            <p>Lorem ipsum dolor sit.</p>
-                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti, explicabo.</p>
-                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste nobis facere quo, aperiam tempora. Perspiciatis.
-                                        </div>
+                                        <div class="kbm_text"><a href="#">Электронные тахеометры</a></div>
                                     </div>
                                     <div class="kbm_item">
                                         <div class="kbm_image">
                                             <img src="images/kbm_image_2.png" alt="">
                                         </div>
-                                        <div class="kbm_text"><span>Оптические нивелиры</span></div>
-                                        <div class="kbm_description">
-                                            <p>Lorem ipsum dolor sit amet.</p>
-                                            <p>Lorem ipsum dolor sit.</p>
-                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione, veritatis.</p>
-                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad, laboriosam, voluptatem. Qui facere, suscipit? Eum?
-                                        </div>
+                                        <div class="kbm_text"><a href="#">Оптические нивелиры</a></div>
                                     </div>
                                     <div class="kbm_item">
                                         <div class="kbm_image">
                                             <img src="images/kbm_image_2.png" alt="">
                                         </div>
-                                        <div class="kbm_text"><span>Георадары</span></div>
-                                        <div class="kbm_description">
-                                            <p>Lorem ipsum dolor sit amet.</p>
-                                            <p>Lorem ipsum dolor sit.</p>
-                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore, nulla.</p>
-                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui, ad quis inventore iusto maiores cupiditate?
-                                        </div>
+                                        <div class="kbm_text"><a href="#">Георадары</a></div>
                                     </div>
                                 </div>
                                 <div class="kbm_row ">
@@ -165,37 +129,19 @@
                                         <div class="kbm_image">
                                             <img src="images/kbm_image_1.png" alt="">
                                         </div>
-                                        <div class="kbm_text"><span>Сканирующие системы</span></div>
-                                        <div class="kbm_description">
-                                            <p>Lorem ipsum dolor sit amet.</p>
-                                            <p>Lorem ipsum dolor sit.</p>
-                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti, explicabo.</p>
-                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste nobis facere quo, aperiam tempora. Perspiciatis.
-                                        </div>
+                                        <div class="kbm_text"><a href="#">Сканирующие системы</a></div>
                                     </div>
                                     <div class="kbm_item">
                                         <div class="kbm_image">
                                             <img src="images/kbm_image_1.png" alt="">
                                         </div>
-                                        <div class="kbm_text"><span>Лазерные уровни</span></div>
-                                        <div class="kbm_description">
-                                            <p>Lorem ipsum dolor sit amet.</p>
-                                            <p>Lorem ipsum dolor sit.</p>
-                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione, veritatis.</p>
-                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad, laboriosam, voluptatem. Qui facere, suscipit? Eum?
-                                        </div>
+                                        <div class="kbm_text"><a href="#">Лазерные уровни</a></div>
                                     </div>
                                     <div class="kbm_item">
                                         <div class="kbm_image">
                                             <img src="images/kbm_image_1.png" alt="">
                                         </div>
-                                        <div class="kbm_text"><span>GPS-навигаторы</span></div>
-                                        <div class="kbm_description">
-                                            <p>Lorem ipsum dolor sit amet.</p>
-                                            <p>Lorem ipsum dolor sit.</p>
-                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore, nulla.</p>
-                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui, ad quis inventore iusto maiores cupiditate?
-                                        </div>
+                                        <div class="kbm_text"><a href="#">GPS-навигаторы</a></div>
                                     </div>
                                 </div>
                                 <div class="kbm_row ">
@@ -203,37 +149,19 @@
                                         <div class="kbm_image">
                                             <img src="images/kbm_image_2.png" alt="">
                                         </div>
-                                        <div class="kbm_text"><span>Полевые контроллеры</span></div>
-                                        <div class="kbm_description">
-                                            <p>Lorem ipsum dolor sit amet.</p>
-                                            <p>Lorem ipsum dolor sit.</p>
-                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti, explicabo.</p>
-                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste nobis facere quo, aperiam tempora. Perspiciatis.
-                                        </div>
+                                        <div class="kbm_text"><a href="#">Полевые контроллеры</a></div>
                                     </div>
                                     <div class="kbm_item">
                                         <div class="kbm_image">
                                             <img src="images/kbm_image_2.png" alt="">
                                         </div>
-                                        <div class="kbm_text"><span>Цифровые нивелиры</span></div>
-                                        <div class="kbm_description">
-                                            <p>Lorem ipsum dolor sit amet.</p>
-                                            <p>Lorem ipsum dolor sit.</p>
-                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione, veritatis.</p>
-                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad, laboriosam, voluptatem. Qui facere, suscipit? Eum?
-                                        </div>
+                                        <div class="kbm_text"><a href="#">Цифровые нивелиры</a></div>
                                     </div>
                                     <div class="kbm_item">
                                         <div class="kbm_image">
                                             <img src="images/kbm_image_2.png" alt="">
                                         </div>
-                                        <div class="kbm_text"><span>Беспилотные аппараты</span></div>
-                                        <div class="kbm_description">
-                                            <p>Lorem ipsum dolor sit amet.</p>
-                                            <p>Lorem ipsum dolor sit.</p>
-                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore, nulla.</p>
-                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui, ad quis inventore iusto maiores cupiditate?
-                                        </div>
+                                        <div class="kbm_text"><a href="#">Беспилотные аппараты</a></div>
                                     </div>
                                 </div>
                                 <div class="kbm_row ">
@@ -241,37 +169,19 @@
                                         <div class="kbm_image">
                                             <img src="images/kbm_image_1.png" alt="">
                                         </div>
-                                        <div class="kbm_text"><span>Электронные теодолиты</span></div>
-                                        <div class="kbm_description">
-                                            <p>Lorem ipsum dolor sit amet.</p>
-                                            <p>Lorem ipsum dolor sit.</p>
-                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti, explicabo.</p>
-                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste nobis facere quo, aperiam tempora. Perspiciatis.
-                                        </div>
+                                        <div class="kbm_text"><a href="#">Электронные теодолиты</a></div>
                                     </div>
                                     <div class="kbm_item">
                                         <div class="kbm_image">
                                             <img src="images/kbm_image_1.png" alt="">
                                         </div>
-                                        <div class="kbm_text"><span>Лазерные дальномеры</span></div>
-                                        <div class="kbm_description">
-                                            <p>Lorem ipsum dolor sit amet.</p>
-                                            <p>Lorem ipsum dolor sit.</p>
-                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione, veritatis.</p>
-                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad, laboriosam, voluptatem. Qui facere, suscipit? Eum?
-                                        </div>
+                                        <div class="kbm_text"><a href="#">Лазерные дальномеры</a></div>
                                     </div>
                                     <div class="kbm_item">
                                         <div class="kbm_image">
                                             <img src="images/kbm_image_1.png" alt="">
                                         </div>
-                                        <div class="kbm_text"><span>Программное обеспечение</span></div>
-                                        <div class="kbm_description">
-                                            <p>Lorem ipsum dolor sit amet.</p>
-                                            <p>Lorem ipsum dolor sit.</p>
-                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore, nulla.</p>
-                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui, ad quis inventore iusto maiores cupiditate?
-                                        </div>
+                                        <div class="kbm_text"><a href="#">Программное обеспечение</a></div>
                                     </div>
                                 </div>
                             </div>

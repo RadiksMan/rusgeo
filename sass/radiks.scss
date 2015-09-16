@@ -8,6 +8,7 @@
     .headerTop{padding-bottom: 36px;
         .headerLink{float: left;padding-top: 16px;padding-left: 43px;
             ul li{float: left;list-style-type: none;margin-right: 28px;
+                &.active{a{color: #fff;}}
                 a{
                     text-decoration: none;text-transform: uppercase;color: #b6bcc1;font-size: 12px;font-family: 'PT Sans', sans-serif;
                     &:hover{text-decoration: underline;}
@@ -149,13 +150,14 @@
         .nav-text{display: inline-block;vertical-align: middle;max-width: 180px;font-size: 16px;font-family: 'PT Sans', sans-serif;font-weight: normal;color: #4f5051;width: 80%;cursor: default;}
         .nav-menu{position: absolute;z-index: 5;width: 100%;max-width: 230px;background-color: white;
             ul li{border-bottom: 1px solid #f3f3f3;position: relative;
+
                 a{text-decoration: none;padding: 9px 0px;display: block;padding-left: 10px;display: block;position: relative;font-family: 'Ubuntu', sans-serif;color: #3c3f40;padding-right: 25px;
                     &:after{
                         content: "";position: absolute;right: 13px;top:8px;width: 8px;height: 14px;background:url(../images/nav_arrow.png) center center no-repeat;
                     }
 
                 }
-                &:hover{box-shadow: 0 2px 2px -2px #CFCFCF;
+                &:hover,.active{box-shadow: 0 2px 2px -2px #CFCFCF;
                     a{
                         color: #37728b;
                         &:after{background: url(../images/nav_arrow_active.png) center center no-repeat;transform: rotate(90deg);width: 14px;height: 8px;right: 10px;top: 11px;}
@@ -665,6 +667,7 @@
             &:after{content: "";display: block;clear: both;}
             .kbm_image{width: 15%;display: inline-block;vertical-align: middle;margin-left: -4px;}
             .kbm_text{width: 85%;display: inline-block;vertical-align: middle;cursor: pointer;color: #37728b;font-family: "PT Sans",sans-serif;font-size: 13px;
+                a{display: block;text-decoration: none;}
                 span{position: relative;
                     &:after{content: "";position: absolute;width: 8px;height: 5px;background: url('../images/kbm_text.png') center center no-repeat;top: 7px;right: -12px;}
                 }
@@ -1071,7 +1074,7 @@ top: 50%;transform: translate(-50%,-50%);}
 .remont-category{
     .title{padding-top: 13px;padding-bottom: 19px;}
     .navigation_block_wrap{padding:0;padding-bottom: 14px;}
-    .navigation_block_wrap_title{color: #38393a;font-size: 18px;font-family: "PT Sans",sans-serif;    padding: 27px 0px 17px 10px;}
+    .navigation_block_wrap_title{color: #38393a;font-size: 18px;font-family: "PT Sans",sans-serif;padding: 27px 0px 17px 10px;}
     .navigation_block .nav-menu ul li {border-bottom: none;padding: 0 10px;
         a{border-bottom: 1px solid #ecf0f1}
         &:hover,&.active{background-color: #edf2f7;font-weight: bold;
@@ -1183,7 +1186,9 @@ top: 50%;transform: translate(-50%,-50%);}
 
 .rent-category-wrap{
     .navigation_block{padding-top: 20px;padding-bottom: 37px;
-        .navigation_block_wrap{    padding: 2px 10px;}
+        .navigation_block_wrap{    padding: 0px 0px;
+            .nav-menu ul li a{padding-left: 10px;padding-right: 10px;}
+        }
     }
     .title{padding-top: 24px;max-height: 85px;
         .remont_category_button{float: right;margin-top: 4px;}
@@ -1192,17 +1197,135 @@ top: 50%;transform: translate(-50%,-50%);}
     .katalog_products_top{padding-top: 21px;    max-height: 83px;}
 
     .product-items-wrap.katalog-item{
-        .product-item{
+        .product-item{position: relative;
+            &:hover{
+                .product-item-bottom{display: none;}
+                .product-item-wrapper{border: 1px solid #78b3da;}
+
+                .product-item-bottom{margin:-1px;}
+            }
+            .product-item-wrapper{border: 1px solid #f2f2f2;}
             .product-item-top {
-                .product-item-link{padding-top: 23px;}
-                .product-item-calc-button{
-                    span{color: #76b2da;font-size: 14px;border-bottom:1px dashed #76b2da;background:none;}
-                    .icon-calc{}
+                .product-item-link{padding-top:38px;    padding-bottom: 12px;}
+                .product-item-description{
+                    p{margin-bottom: 4px;}
+                }
+                .product-item-calc-button{padding-left: 10px;cursor: pointer;
+                    span{color: #76b2da;font-size: 14px;border-bottom:1px dashed #76b2da;background:none;display: inline-block;vertical-align: middle;}
+                    .icon-calc{width: 16px;height: 18px;background:url(../images/icon-calc.png) center center no-repeat;display: inline-block;vertical-align: middle;border-bottom: none;margin-right: 5px;}
+                }
+                .product-item-text{padding-left: 10px;padding-right: 10px;line-height: 14px;font-size: 11px;padding-top: 20px;padding-bottom: 15px;
+                    li{padding-left: 13px;line-height: 16px;position: relative;
+                        &:after{height: 3px;width: 3px;background-color: #bfc5c6;position: absolute;left: 5px;top: 6px;content: "";}
+                    }
                 }
             }
-            .product-item-bottom{}
+            .product-item-bottom{position: absolute;background-color: white;top: 0;left: 0;right: 0;bottom:0;text-align: center;    padding-top: 170px;
+                &.active{display: block;}
+
+                .product-item-bottom-close{position: absolute;width: 20px;height: 20px;top: 10px;right: 10px;cursor: pointer;
+                    &:after,&:before{content: "";height: 2px;width: 20px;background-color: #76b2da;position: absolute;transform:rotate(45deg);top: 50%;right: 6%;}
+                    &:before{transform:rotate(135deg);}
+                }
+                .product-item-bottom-title{font-weight: bold;color: #34495e;font-size: 15px;text-transform: uppercase;padding-bottom: 25px;}
+                .product-item-bottom-calc{color: #34495e;font-size: 14px;
+                    &>*{display: inline-block;vertical-align: middle;}
+                    input{width: 50px;height: 30px;border:1px solid #dddde0;border-radius: 4px;text-align: center;color: #7f8c8d;font-weight: bold;font-size: 14px;}
+                }
+                .product-item-bottom-price{padding-top: 15px;padding-bottom: 20px;
+                    &>*{display: inline-block;vertical-align: middle;}
+                    span{font-size: 18px;color: #8a9596;}
+                    .calc-price{color: #393c3d;font-weight: bold;}
+                }
+                .product-item-bottom-button{
+                    .button{width: auto;min-width: 94px;padding: 0 13px;height: 35px;line-height: 35px;text-transform: none;font-size: 17px;}
+                }
+            }
+        }
+    }
+    .show_more{padding-bottom: 30px;border-bottom:1px solid #f5f6f7;}
+    .rent_category_bottom{
+        .remont_category_button{margin-top: 25px;margin-bottom: 35px;}
+    }
+
+    .navigation_block .nav-menu ul li:hover a, .remont-category .navigation_block .nav-menu ul li.active a{border-color: #edf2f7;background-color: #edf2f7;font-weight: bold;}
+}
+
+.personal_cabinet_wrap{padding-left: 10px;padding-right: 10px;
+    .title{padding-top: 23px;padding-bottom: 44px;}
+    .pc_form{
+        .pc_side{float: left;width: 50%;}
+        .pc_row{padding-bottom: 28px;
+            span{font-size: 14px;font-weight: bold;color: #38393a;display: block;padding-bottom: 11px;}
+            input{height: 42px;border:1px solid #dfdfdf;width: 300px;color: #474444;font-size: 18px;padding-left: 13px;
+                &.pc_name{width: 390px;}
+            }
+            .remove_pass{padding-top: 10px;padding-left: 15px;text-decoration: none;font-size: 16px;color: #37728b;display: block;
+                span{border-bottom:1px dashed #37728b;display: inline-block;padding-bottom: 5px;color: #37728b;}
+            }
+        }
+    }
+    .pc_bonus{float: right;background-color: #f7f7f7;padding: 15px 20px;margin-top: 25px;margin-left: 58px;
+        .pc_bonus_title{font-size: 24px;color: #38393a;padding-bottom: 34px;}
+        .pc_bonus_center{font-size: 60px;color: #37728b;text-align: center;font-weight: 300;padding-bottom: 13px;}
+        .pc_bonus_bottom{font-size: 14px;color: #a1a2a3;font-style: italic;padding: 0 4%;line-height: 25px;}
+
+    }
+    .elect_product{
+        .elect_title{font-size: 30px;color: #38393a;padding-top: 20px;padding-bottom: 20px;}
+
+        .elect_item{float: left;border:1px solid transparent;position: relative;width: 160px;text-align: center;
+            a{text-decoration: none;display: block;text-align: center;}
+            &:hover{border:1px solid #eeeeee;}
+        }
+        .elect_item_img{padding-top: 21px;margin:0 auto;display: inline-block;padding-bottom: 75px;}
+        .elect_item_title{font-size: 14px;color: #34495e;text-decoration: underline;padding-bottom: 20px;margin:0 auto;display: inline-block;position: absolute;bottom: 5px;left: 0;right: 0;}
+        .elect_item_img_close{position: absolute;width: 20px;height: 20px;right: 5px;top: 5px;cursor: pointer;
+            &:after,&:before{content: "";position: absolute;height: 1px;width: 19px;background-color: #d3d2d2;transform:rotate(45deg);top: 50%;right: 10%;}
+            &:before{transform:rotate(135deg);}
 
         }
     }
+    .history_wrap{padding-bottom: 200px;
+        .history_title{font-size: 30px;color: #38393a;padding-top: 61px;padding-bottom: 41px;}
+        .history_row{color: #38393a;font-size: 14px;border-bottom:1px solid #dde0e1;padding-bottom: 10px;padding-top: 13px;
+            &>*{float: left;}
+            &.head{font-size: 14px;color: #9b9c9c;font-style: italic;padding-bottom: 19px;border-bottom: none;padding-top: 0;
+            }
+        }
+        .history_date{width: 16%;}
+        .history_number{width: 20%;}
+        .history_price{width: 12%;}
+        .history_detail{width: 36%;}
+        .history_cancel{width: 16%;}
+    }
+}
+
+.poverka-category{
+    .navigation_block{}
+    .navigation_block_wrap_title{color: #38393a;font-size: 18px;font-family: "PT Sans",sans-serif;padding-left: 10px;padding-right: 10px;padding-top: 20px;padding-bottom: 17px;}
+    .navigation_block_wrap{padding:0;}
+    .nav-menu ul li:hover,.nav-menu ul li.active{background-color: #edf2f7;
+        a{color: #38393a;font-weight: bold;}
+    }
+    .nav-menu ul li a{padding: 9px 10px;
+        &:hover{background-color: inherit;}
+    }
+    .poverka-category-top{padding-left: 4px;padding-top: 20px;padding-bottom: 44px;
+        .poverka-category-aside-img{display: inline-block;vertical-align: top;width: 35%;margin-left: -4px;text-align: center;
+            img{display: inline-block;vertical-align: middle;}
+        }
+        .poverka-category-aside-desc{display: inline-block;vertical-align: top;width: 65%;}
+        .poverka-category-title{color: #38393a;font-size: 26px;font-family: "PT Sans",sans-serif;text-transform: uppercase;padding-top: 10px;}
+        .poverka-category-text{font-size: 13px;color: #4e5050;padding-top: 23px;line-height: 20px;border-bottom: 1px solid #d0e2ea;padding-bottom: 17px;}
+        .poverka-category-price{font-size: 14px;color: #38393a;font-weight: 600;padding-top: 24px;
+            span{font-weight: bold;font-size: 18px;padding-left: 10px;}
+        }
+        .poverka-category-subprice{color: #4e5050;font-size: 13px;padding-top: 14px;}
+        .poverka-category-buy{padding-top: 20px;
+            .button{width: auto;min-width: 175px;font-size: 14px;}
+        }
+    }
+
 
 }
