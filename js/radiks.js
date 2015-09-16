@@ -12,7 +12,6 @@ function loggedClick(){
     });
 }
 function navHover(){
-
     var padHeight = $('.nav_1 .nav-menu').outerHeight();
     $('.nav-menu').hide();
     $('.nav_wrap').mouseover(function(){
@@ -29,7 +28,7 @@ function navHover(){
     });
     $('.nav_wrap').mouseleave(function() {
         $('.nav_wrap').removeClass('menuShow');
-        $('.nav-menu:not(.nav-column)').slideUp('100');
+        $('.nav-menu:not(.nav-column)').slideUp('300');
         $('.nav-title').removeClass('active');
 
             if($(this).hasClass('menuShow')){
@@ -39,6 +38,17 @@ function navHover(){
             }
         $('.left-column-wrap').removeClass('padding');
         $('.left-column-wrap').css("padding-top", 0);
+    });
+}
+function navigationBlockAcordion(){
+    $('.navigation_block .nav-menu>ul>li').hover(function(e) {
+        //e.preventDefault();
+        if( $(this).find('ul').hasClass('active')){
+            return false;
+        }else{
+        $('.navigation_block .nav-menu li').find('ul').slideUp(400).removeClass('active');
+        $(this).find('ul').slideDown(600).addClass('active');
+        }
     });
 }
 function navSearch(){
@@ -204,17 +214,7 @@ function AddCart(){
 
         PriceCount();
 }
-function navigationBlockAcordion(){
-    $('.navigation_block .nav-menu>ul>li').click(function(e) {
-        //e.preventDefault();
-        if( $(this).find('ul').hasClass('active')){
-            return false;
-        }else{
-        $('.navigation_block .nav-menu li').find('ul').slideUp(400).removeClass('active');
-        $(this).find('ul').slideDown(400).addClass('active');
-        }
-    });
-}
+
 function filterShow(){
     $('.filter_item_button_close').click(function() {
         $(this).parent().removeClass('active item_bottom_show');
@@ -262,16 +262,16 @@ function katalogButtonLineGrid(){
     }
 }
 
-function katalogBrendMiddleAcordion(){
-    $('.kbm_item').click(function() {
-        // if( $(this).hasClass('active')){
-        //     return false;
-        // }else{
-        //$('.kbm_row .kbm_item .kbm_description').slideUp(400).removeClass('active');
-        $(this).toggleClass('active').find('.kbm_description').slideToggle(400);
-        // }
-    });
-}
+// function katalogBrendMiddleAcordion(){
+//     $('.kbm_item').click(function() {
+//         // if( $(this).hasClass('active')){
+//         //     return false;
+//         // }else{
+//         //$('.kbm_row .kbm_item .kbm_description').slideUp(400).removeClass('active');
+//         $(this).toggleClass('active').find('.kbm_description').slideToggle(400);
+//         // }
+//     });
+// }
 function block_product_item_one_height(){
     if($('.block_product_item').length > 0){
         setTimeout(function(){
@@ -367,7 +367,65 @@ function application_for_rent_Upload(){
     });
 }
 
+function rentCalc(){
+    var itemProduct;
+    $('.product-item-calc-button').click(function() {
+        $(this).parent().parent().find('.product-item-bottom').addClass('active');
+        itemProduct = $(this).parent().parent().parent();
+        console.log(itemProduct);
+    });
+    $('.product-item-bottom-close').click(function() {
+        $(this).parent().parent().find('.product-item-bottom').removeClass('active');
+        itemProduct.find('.product-item-bottom-calc input').val(" ");
+        itemProduct.find('.product-item-bottom-price .calc-price').text(0);
+    });
+
+    $(document).on('change', '.product-item-bottom-calc input', function() {
+        calcSum();
+    });
+
+    function calcSum(){
+        var day_3 = itemProduct.find('.product-item-description .day_3').text();
+        var day_2 = itemProduct.find('.product-item-description .day_2').text();
+        var day_1 = itemProduct.find('.product-item-description .day_1').text();
+        var inp = itemProduct.find('.product-item-bottom-calc input').val();
+        var sum = 0;
+        if(7<=inp && inp<=14){
+            sum = inp*parseInt(day_1);
+        }else if(15<=inp && inp<=30){
+             sum = inp*parseInt(day_2);
+        }else if(30<inp){
+             sum = inp*parseInt(day_3);
+        }else{
+            sum = 0;
+        }
+        itemProduct.find('.product-item-bottom-price .calc-price').text(sum);
+    }
+}
+
+
+function block_elect_item_one_height(){
+    if($('.elect_item').length > 0){
+             var height = 0;
+            $('.elect_item').each(function(){
+                var itemHeight = $(this).outerHeight();
+                if(itemHeight>height){
+                    height = itemHeight;
+                }
+             });
+             $('.elect_item').height(height)
+    }
+}
+function block_elect_item_remove_button(){
+    $('.elect_item_img_close').click(function() {
+        $(this).parent().remove();
+    });
+}
+
 $(document).ready(function() {
+    block_elect_item_remove_button();
+    block_elect_item_one_height();
+    rentCalc()
     application_for_rent_Upload();
     devilary_company_radio_form();
     bucketRadioStyler();
@@ -375,7 +433,6 @@ $(document).ready(function() {
     pikupSelectWrap();
     block_information_row_one_height();
     block_product_item_one_height();
-    katalogBrendMiddleAcordion();
     katalogButtonLineGrid();
     filterStyling();
     filterShow();

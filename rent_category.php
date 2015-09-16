@@ -214,6 +214,51 @@
                                             </div>
                                             <div class="product-item-link"><a href="#">GPS Topcon GR-3</a></div>
                                             <div class="product-item-description">
+                                                <p>31 - 60 дней - <span class="day_3">300</span>.-/день</p>
+                                                <p>15 - 30 дней - <span class="day_2">700</span>.-/день</p>
+                                                <p>7 - 14 дней - <span class="day_1">800</span>.-/день</p>
+                                            </div>
+                                            <div class="product-item-calc-button">
+                                                <span class="icon icon-calc"></span> <span>Расчитать стоимость</span>
+                                            </div>
+                                            <div class="product-item-text">
+                                                <ol>
+                                                    <li>Точность измерения углов - 20";</li>
+                                                    <li>Увеличение - 30 крат.</li>
+                                                </ol>
+                                            </div>
+
+                                        </div>
+                                        <div class="product-item-bottom">
+                                            <div class="product-item-bottom-close"></div>
+
+                                            <div class="product-item-bottom-title">
+                                                Расчет стоимости
+                                            </div>
+                                            <div class="product-item-bottom-calc">
+                                                <span>Аренда на</span> <input type="number" min="7" > <span>дней</span>
+                                            </div>
+                                            <div class="product-item-bottom-price">
+                                                <span>= </span> <span class="calc-price">0</span> <span>.-</span>
+                                            </div>
+                                            <div class="product-item-bottom-button">
+                                               <a href="#" class="button">
+                                                   Заказать
+                                               </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="product-item">
+                                    <div class="product-item-wrapper">
+                                        <div class="product-item-top">
+                                            <div class="product-item-img-wrap">
+                                                <div class="product-item-img vfix-before">
+                                                    <img src="images/popular_item_4.png" alt="" />
+                                                </div>
+                                            </div>
+                                            <div class="product-item-link"><a href="#">GPS Topcon GR-3</a></div>
+                                            <div class="product-item-description">
                                                 <p>31 - 60 дней - <span class="day_3">520</span>.-/день</p>
                                                 <p>15 - 30 дней - <span class="day_2">670</span>.-/день</p>
                                                 <p>7 - 14 дней - <span class="day_1">770</span>.-/день</p>
@@ -230,11 +275,205 @@
 
                                         </div>
                                         <div class="product-item-bottom">
+                                            <div class="product-item-bottom-close"></div>
 
+                                            <div class="product-item-bottom-title">
+                                                Расчет стоимости
+                                            </div>
+                                            <div class="product-item-bottom-calc">
+                                                <span>Аренда на</span> <input type="number" min="7"> <span>дней</span>
+                                            </div>
+                                            <div class="product-item-bottom-price">
+                                                <span>= </span> <span class="calc-price">0</span> <span>.-</span>
+                                            </div>
+                                            <div class="product-item-bottom-button">
+                                               <a href="#" class="button">
+                                                   Заказать
+                                               </a>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
+                                <div class="product-item">
+                                    <div class="product-item-wrapper">
+                                        <div class="product-item-top">
+                                            <div class="product-item-img-wrap">
+                                                <div class="product-item-img vfix-before">
+                                                    <img src="images/popular_item_9.png" alt="" />
+                                                </div>
+                                            </div>
+                                            <div class="product-item-link"><a href="#">GPS Topcon GR-3</a></div>
+                                            <div class="product-item-description">
+                                                <p>31 - 60 дней - <span class="day_3">520</span>.-/день</p>
+                                                <p>15 - 30 дней - <span class="day_2">670</span>.-/день</p>
+                                                <p>7 - 14 дней - <span class="day_1">770</span>.-/день</p>
+                                            </div>
+                                            <div class="product-item-calc-button">
+                                                <span class="icon icon-calc"></span> <span>Расчитать стоимость</span>
+                                            </div>
+                                            <div class="product-item-text">
+                                                <ol>
+                                                    <li>Точность измерения углов - 20";</li>
+                                                    <li>Увеличение - 30 крат.</li>
+                                                </ol>
+                                            </div>
 
+                                        </div>
+                                        <div class="product-item-bottom">
+                                            <div class="product-item-bottom-close"></div>
+
+                                            <div class="product-item-bottom-title">
+                                                Расчет стоимости
+                                            </div>
+                                            <div class="product-item-bottom-calc">
+                                                <span>Аренда на</span> <input type="number" min="7"> <span>дней</span>
+                                            </div>
+                                            <div class="product-item-bottom-price">
+                                                <span>= </span> <span class="calc-price">0</span> <span>.-</span>
+                                            </div>
+                                            <div class="product-item-bottom-button">
+                                               <a href="#" class="button">
+                                                   Заказать
+                                               </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="product-item">
+                                    <div class="product-item-wrapper">
+                                        <div class="product-item-top">
+                                            <div class="product-item-img-wrap">
+                                                <div class="product-item-img vfix-before">
+                                                    <img src="images/popular_item_6.png" alt="" />
+                                                </div>
+                                            </div>
+                                            <div class="product-item-link"><a href="#">GPS Topcon GR-3</a></div>
+                                            <div class="product-item-description">
+                                                <p>31 - 60 дней - <span class="day_3">300</span>.-/день</p>
+                                                <p>15 - 30 дней - <span class="day_2">700</span>.-/день</p>
+                                                <p>7 - 14 дней - <span class="day_1">800</span>.-/день</p>
+                                            </div>
+                                            <div class="product-item-calc-button">
+                                                <span class="icon icon-calc"></span> <span>Расчитать стоимость</span>
+                                            </div>
+                                            <div class="product-item-text">
+                                                <ol>
+                                                    <li>Точность измерения углов - 20";</li>
+                                                    <li>Увеличение - 30 крат.</li>
+                                                </ol>
+                                            </div>
+
+                                        </div>
+                                        <div class="product-item-bottom">
+                                            <div class="product-item-bottom-close"></div>
+
+                                            <div class="product-item-bottom-title">
+                                                Расчет стоимости
+                                            </div>
+                                            <div class="product-item-bottom-calc">
+                                                <span>Аренда на</span> <input type="number" min="7" > <span>дней</span>
+                                            </div>
+                                            <div class="product-item-bottom-price">
+                                                <span>= </span> <span class="calc-price">0</span> <span>.-</span>
+                                            </div>
+                                            <div class="product-item-bottom-button">
+                                               <a href="#" class="button">
+                                                   Заказать
+                                               </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="product-item">
+                                    <div class="product-item-wrapper">
+                                        <div class="product-item-top">
+                                            <div class="product-item-img-wrap">
+                                                <div class="product-item-img vfix-before">
+                                                    <img src="images/popular_item_10.png" alt="" />
+                                                </div>
+                                            </div>
+                                            <div class="product-item-link"><a href="#">GPS Topcon GR-3</a></div>
+                                            <div class="product-item-description">
+                                                <p>31 - 60 дней - <span class="day_3">520</span>.-/день</p>
+                                                <p>15 - 30 дней - <span class="day_2">670</span>.-/день</p>
+                                                <p>7 - 14 дней - <span class="day_1">770</span>.-/день</p>
+                                            </div>
+                                            <div class="product-item-calc-button">
+                                                <span class="icon icon-calc"></span> <span>Расчитать стоимость</span>
+                                            </div>
+                                            <div class="product-item-text">
+                                                <ol>
+                                                    <li>Точность измерения углов - 20";</li>
+                                                    <li>Увеличение - 30 крат.</li>
+                                                </ol>
+                                            </div>
+
+                                        </div>
+                                        <div class="product-item-bottom">
+                                            <div class="product-item-bottom-close"></div>
+
+                                            <div class="product-item-bottom-title">
+                                                Расчет стоимости
+                                            </div>
+                                            <div class="product-item-bottom-calc">
+                                                <span>Аренда на</span> <input type="number" min="7"> <span>дней</span>
+                                            </div>
+                                            <div class="product-item-bottom-price">
+                                                <span>= </span> <span class="calc-price">0</span> <span>.-</span>
+                                            </div>
+                                            <div class="product-item-bottom-button">
+                                               <a href="#" class="button">
+                                                   Заказать
+                                               </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="product-item">
+                                    <div class="product-item-wrapper">
+                                        <div class="product-item-top">
+                                            <div class="product-item-img-wrap">
+                                                <div class="product-item-img vfix-before">
+                                                    <img src="images/popular_item_4.png" alt="" />
+                                                </div>
+                                            </div>
+                                            <div class="product-item-link"><a href="#">GPS Topcon GR-3</a></div>
+                                            <div class="product-item-description">
+                                                <p>31 - 60 дней - <span class="day_3">520</span>.-/день</p>
+                                                <p>15 - 30 дней - <span class="day_2">670</span>.-/день</p>
+                                                <p>7 - 14 дней - <span class="day_1">770</span>.-/день</p>
+                                            </div>
+                                            <div class="product-item-calc-button">
+                                                <span class="icon icon-calc"></span> <span>Расчитать стоимость</span>
+                                            </div>
+                                            <div class="product-item-text">
+                                                <ol>
+                                                    <li>Точность измерения углов - 20";</li>
+                                                    <li>Увеличение - 30 крат.</li>
+                                                </ol>
+                                            </div>
+
+                                        </div>
+                                        <div class="product-item-bottom">
+                                            <div class="product-item-bottom-close"></div>
+
+                                            <div class="product-item-bottom-title">
+                                                Расчет стоимости
+                                            </div>
+                                            <div class="product-item-bottom-calc">
+                                                <span>Аренда на</span> <input type="number" min="7"> <span>дней</span>
+                                            </div>
+                                            <div class="product-item-bottom-price">
+                                                <span>= </span> <span class="calc-price">0</span> <span>.-</span>
+                                            </div>
+                                            <div class="product-item-bottom-button">
+                                               <a href="#" class="button">
+                                                   Заказать
+                                               </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                             <div class="show_more">
                                 <a href="#">
@@ -244,6 +483,17 @@
                                     <div class="show_more_title">Показать ещё <span>20</span></div>
                                     <div class="show_more_subtitle">Показано <span>30</span> товаров из <span>43</span></div>
                                 </a>
+                            </div>
+
+                            <div class="rent_category_bottom">
+                                <div class="remont_category_button">
+                                    <a href="#application_for_rent" class="fancybox">
+                                        <span>Оставить заявку</span>
+                                    </a>
+                                </div>
+                                <div class="seo_text">
+                                    <p>Аренда профессионального GPS-оборудования - это уникальная возможность прикоснуться к новейшим технологиям глобального GPS-позиционирования, которое позволяет, практически, в любом месте на земной поверхности, в любое время года, дня или ночи, при любых погодных условиях определить своё настоящее местоположение с очень высокой точностью, в сравнении с традиционной геодезией, при этом выигрывая во времени и в трудозатратах (RTK - режим — единственный способ в реальном времени получить координаты точек на местности с уровнем точности до сантиметра). Данная услуга – это возможность попробовать оборудование в деле – в реальных рабочих условиях.</p>
+                                </div>
                             </div>
                         </div>
                     </div>
