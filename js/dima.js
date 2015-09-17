@@ -138,12 +138,49 @@ function cardTabs(nav, tabs){
         if(!$(this).is('.active')){
             nav.removeClass('active');
             tabs.removeClass('active');
-            var index = $(this).index();
+            var index = $(this).data('tab');
             $(this).addClass('active');
             tabs.eq(index).addClass('active');
         }
     });
 }
+
+function cardSliders(){
+
+    function oneSliderItemsHeight(){
+
+        if($('.card-tabs-sliders-main-item.active:not(.heighed)')){
+            var height = 0;
+            $('.card-tabs-sliders-main-item.active').addClass('heighed');
+            $('.card-tabs-sliders-main-item.active .card-product-item:not(.heighed)').each(function(){
+                $(this).addClass('heighed');
+                var itemHeight = $('.product-item').height();
+                console.log(itemHeight);
+                if (itemHeight > height){
+                    height = itemHeight;
+                }
+            });
+            $('.card-tabs-sliders-main-item.active .product-item').height(height);
+            removeInitSlider();
+        }
+
+    }
+
+    function removeInitSlider(){
+        //$('.card-tabs-sliders-main-item.active').slick('unslick');
+        $('.card-tabs-sliders-main-item.active').slick({
+            slidesToShow: 3,
+            slidesToScroll: 1,
+            infinite:false,
+            draggable:false
+        });
+    }
+
+    $(window).load(function(){
+        oneSliderItemsHeight();
+    });
+
+};
 
 // /card
 
@@ -160,6 +197,10 @@ $(document).ready(function() {
     cardSlick();
     cardPopup();
     cardTabs($('.card-item-params-tabs li'), $('.card-item-params-wrap'));
+    cardTabs($('.card-tabs-sliders-nav span'), $('.card-tabs-sliders-main-item'));
+
+    cardSliders();
+
 
     // /card call
 
