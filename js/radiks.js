@@ -12,12 +12,13 @@ function loggedClick(){
     });
 }
 function navHover(){
-    var padHeight = $('.nav_1 .nav-menu').outerHeight();
-    $('.nav-menu').hide();
+    var padHeight = $('.nav_1 .nav-menu:not(.nav-column)').outerHeight();
+    $('.nav-menu:not(.nav-column)').hide();
+
     $('.nav_wrap').mouseover(function(){
         $(this).addClass('menuShow');
         $(this).find('.nav-title').addClass('active');
-        $(this).find('.nav-menu').slideDown('300');
+        $(this).find('.nav-menu:not(.nav-column)').slideDown('300');
 
         if($(this).hasClass('menuShow') && $(this).hasClass('nav_1')){
             $('.left-column-wrap').addClass('padding');

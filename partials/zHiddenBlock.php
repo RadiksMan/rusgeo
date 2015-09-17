@@ -378,5 +378,21 @@
         </div>
     </div>
 
+    <div id="button_3d">
+        <div class="button_3d_wrap">
+            <img src="images/3d/mini.jpg"
+              class="reel"
+              data-images="images/3d/mini/###.jpg"
+              data-frames="20"
+              data-frame="1"
+              data-speed="0.0">
+        </div>
+    </div>
+
+    <div id="videoPopup">
+        <div class="videoPopup_wrap">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/qba8Hm4gdVw" frameborder="0" allowfullscreen></iframe>
+        </div>
+    </div>
 
 </div>

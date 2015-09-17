@@ -24,6 +24,7 @@
 
 
     <script src="js/jquery.validate.min.js" type="text/javascript"></script>
+    <script src="js/jquery.reel-min.js" type="text/javascript"></script>
 	<script src="js/jquery.fine-uploader.min.js" type="text/javascript"></script>
 
 	<link rel="stylesheet" type="text/css" href="fancybox/jquery.fancybox.css" media="all" />
