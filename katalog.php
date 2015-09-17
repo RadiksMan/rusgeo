@@ -221,7 +221,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="product-items-wrap katalog-item grid">
+                        <div class="product-items-wrap katalog-item">
                             <div class="product-items-main cfix">
                                 <div class="product-item">
                                     <div class="product-item-wrapper">

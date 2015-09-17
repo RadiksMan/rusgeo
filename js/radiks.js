@@ -22,8 +22,6 @@ function navHover(){
 
         if($(this).hasClass('menuShow') && $(this).hasClass('nav_1')){
             $('.left-column-wrap').addClass('padding');
-
-            $('.left-column-wrap').addClass('padding');
             $('.left-column-wrap').css("padding-top", padHeight);
         }
     });
@@ -47,8 +45,10 @@ function navigationBlockAcordion(){
         if( $(this).find('ul').hasClass('active')){
             return false;
         }else{
-        $('.navigation_block .nav-menu li').find('ul').slideUp(400).removeClass('active');
-        $(this).find('ul').slideDown(600).addClass('active');
+        $('.navigation_block .nav-menu li').find('ul').slideUp(300,function(){
+            $(this).removeClass('active');
+        });
+        $(this).find('ul').slideDown(300).addClass('active');
         }
     });
 }
@@ -130,6 +130,7 @@ function productItemsHeightElem(item){
 
     var height = 0;
     item.each(function(){
+    $(this).removeAttr('style');
        var itemHeight = $(this).find('.product-item-wrapper').outerHeight();
        if(itemHeight>height){
            height = itemHeight;
@@ -253,12 +254,25 @@ function katalogButtonLineGrid(){
         $('.icon.icon_line').click(function() {
             $('.katalog_products_button_grid span').removeClass('active');
             $(this).addClass('active');
-            $('.product-items-wrap').removeClass('grid').addClass('line');
+            $('.product-items-wrap').addClass('line');
+
+            productItemsHeightElem($('.product-item'));
+
+            $('.product-item').each(function(){
+                var titleWidth = $(this).find('.product-item-link').outerWidth();
+                $(this).find('.product-item-description').css({"transform":"translateX(-"+titleWidth+"px)"})
+            });
+
         });
         $('.icon.icon_grid').click(function() {
+            $('.product-item-description').removeAttr('style');
+            setTimeout(function(){
+                productItemsHeightElem($('.product-item'));
+            },100);
+
             $('.katalog_products_button_grid span').removeClass('active');
             $(this).addClass('active');
-            $('.product-items-wrap').removeClass('line').addClass('grid');
+            $('.product-items-wrap').removeClass('line');
         });
     }
 }
@@ -481,9 +495,9 @@ $(document).ready(function() {
     ratingScript();
 });
 $(window).load(function() {
-    productItemsHeightElem($('.reccomend-item .product-item'))
-    productItemsHeightElem($('.popular-item .product-item'))
-    productItemsHeightElem($('.katalog-item .product-item'))
+    productItemsHeightElem($('.reccomend-item .product-item'));
+    productItemsHeightElem($('.popular-item .product-item'));
+    productItemsHeightElem($('.katalog-item .product-item'));
 });
 $(window).resize(function() {
     productItemsHeightElem($('.reccomend-item .product-item'));
