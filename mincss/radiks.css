@@ -2559,6 +2559,8 @@
 
 .action_wrap .title {
   padding-top: 23px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 .action_wrap .action_row:after {
@@ -4805,4 +4807,12 @@
   vertical-align: middle;
   font-size: 14px;
   margin-left: 27px;
+}
+
+.videoPopup_wrap {
+  padding: 45px;
+}
+
+.button_3d_wrap {
+  padding: 30px;
 }

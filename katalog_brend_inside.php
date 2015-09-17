@@ -10,7 +10,7 @@
             <div class="left-column-wrap">
                 <div class="navigation_block">
                     <div class="navigation_block_wrap">
-                        <div class="nav-menu">
+                        <div class="nav-menu nav-column">
                             <ul>
                                 <li><a href="#"><span>Геодезические приемники</span></a></li>
                                 <li><a href="#"><span>Электронные тахеометры</span></a></li>

@@ -22,8 +22,6 @@ function navHover(){
 
         if($(this).hasClass('menuShow') && $(this).hasClass('nav_1')){
             $('.left-column-wrap').addClass('padding');
-
-            $('.left-column-wrap').addClass('padding');
             $('.left-column-wrap').css("padding-top", padHeight);
         }
     });
@@ -47,8 +45,10 @@ function navigationBlockAcordion(){
         if( $(this).find('ul').hasClass('active')){
             return false;
         }else{
-        $('.navigation_block .nav-menu li').find('ul').slideUp(400).removeClass('active');
-        $(this).find('ul').slideDown(600).addClass('active');
+        $('.navigation_block .nav-menu li').find('ul').slideUp(300,function(){
+            $(this).removeClass('active');
+        });
+        $(this).find('ul').slideDown(300).addClass('active');
         }
     });
 }
