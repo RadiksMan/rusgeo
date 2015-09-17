@@ -122,6 +122,36 @@
                             </div>
 
                         </div>
+                        <div class="card-show-popup-icons">
+
+                            <div class="card-popup-icons-wrap">
+                                <a href="#videoPopup" class="fancybox popup-video-link">
+                                    <span class="card-popup-icon">
+                                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px" y="0px" viewBox="0 0 129.3 64.8" enable-background="new 0 0 129.3 64.8" xml:space="preserve">
+                                            <path fill="none" stroke="#8DBAD1" stroke-width="2" stroke-miterlimit="10" d="M81.9,63.6H2.8c-1.1,0-2-0.9-2-2V3.2  c0-1.1,0.9-2,2-2h79.1c1.1,0,2,0.9,2,2v58.4C83.9,62.7,83,63.6,81.9,63.6z"/>
+                                            <polygon fill="none" stroke="#8DBAD1" stroke-width="2" stroke-miterlimit="10" points="127.3,63 90.2,32.1 127.3,1.2 "/>
+                                        </svg>
+                                    </span>
+                                    <span class="card-popup-text">Видеообзор</span>
+                                </a>
+                            </div>
+
+                            <div class="card-popup-icons-wrap">
+                                <a href="#button_3d" class="fancybox popup-cube-link">
+                                    <span class="card-popup-icon">
+                                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Layer_1" x="0px" y="0px" viewBox="0 0 26.5 28.8" enable-background="new 0 0 26.5 28.8" xml:space="preserve">
+                                            <g>
+                                                <path fill="none" stroke="#81B5CC" stroke-width="1.4" stroke-linejoin="round" stroke-miterlimit="10" d="M13.5,0.7L24.1,7L22,8.3   l-8.5,5.2L5,8.3L2.9,7L13.5,0.7z M13.5,0.7"/>
+                                                <path fill="none" stroke="#81B5CC" stroke-width="1.4" stroke-linejoin="round" stroke-miterlimit="10" d="M1.3,10.1l10.5,6.4v11.4   L1.3,21.1V10.1z M1.3,10.1"/>
+                                                <path fill="none" stroke="#81B5CC" stroke-width="1.4" stroke-linejoin="round" stroke-miterlimit="10" d="M25.7,21.1l-10.5,6.8   V16.5l10.5-6.4V21.1z M25.7,21.1"/>
+                                            </g>
+                                        </svg>
+                                    </span>
+                                    <span class="card-popup-text">Покрутить в 3D</span>
+                                </a>
+                            </div>
+
+                        </div>
                     </div>
                     <div class="card-item-right">
                         <div class="card-item-right-wrap">
