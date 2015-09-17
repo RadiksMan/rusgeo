@@ -133,6 +133,18 @@ function cardPopup(){
 
 };
 
+function cardTabs(nav, tabs){
+    nav.click(function(){
+        if(!$(this).is('.active')){
+            nav.removeClass('active');
+            tabs.removeClass('active');
+            var index = $(this).index();
+            $(this).addClass('active');
+            tabs.eq(index).addClass('active');
+        }
+    });
+}
+
 // /card
 
 $(document).ready(function() {
@@ -147,6 +159,7 @@ $(document).ready(function() {
 
     cardSlick();
     cardPopup();
+    cardTabs($('.card-item-params-tabs li'), $('.card-item-params-wrap'));
 
     // /card call
 
