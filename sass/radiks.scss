@@ -442,7 +442,7 @@
         &:hover{
             .product-item-wrapper{width:auto !important;}
         }
-        .product-item-wrapper{width:auto;
+        .product-item-wrapper{width:auto;position: relative
 
         }
         .product-item-top{position: relative;
@@ -452,10 +452,10 @@
             .product-item-price{
                 &:after{display: none}
             }
-            .product-item-price{position: absolute;top:25px;left:35%;}
+            .product-item-price{position: absolute;top:25px;left:40%;}
         }
         .product-item-bottom{display: block !important;
-            .product-item-link{position: absolute;bottom: auto !important;padding-bottom: 0;right: 54% !important;top: 75px !important;}
+            .product-item-link{position: absolute;bottom: auto !important;padding-bottom: 0;right: 49% !important;top: 75px !important;}
         }
     }
 

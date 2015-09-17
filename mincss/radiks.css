@@ -1589,6 +1589,7 @@
 
 .katalog-item.line .product-item .product-item-wrapper {
   width: auto;
+  position: relative;
 }
 
 .katalog-item.line .product-item .product-item-top {
@@ -1621,7 +1622,7 @@
 .katalog-item.line .product-item .product-item-top .product-item-price {
   position: absolute;
   top: 25px;
-  left: 35%;
+  left: 40%;
 }
 
 .katalog-item.line .product-item .product-item-bottom {
@@ -1632,7 +1633,7 @@
   position: absolute;
   bottom: auto !important;
   padding-bottom: 0;
-  right: 54% !important;
+  right: 49% !important;
   top: 75px !important;
 }
 
