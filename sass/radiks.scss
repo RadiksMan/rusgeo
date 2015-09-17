@@ -452,10 +452,10 @@
             .product-item-price{
                 &:after{display: none}
             }
-            .product-item-price{position: absolute;top:25px;left:40%;}
+            .product-item-price{position: absolute;    top: 25px;left: 40%;right:auto;min-width: 111px;padding-left: 0px !important;}
         }
         .product-item-bottom{display: block !important;
-            .product-item-link{position: absolute;bottom: auto !important;padding-bottom: 0;right: 49% !important;top: 75px !important;}
+            .product-item-link{position: absolute;bottom: auto !important;padding-bottom: 0;right: auto !important;top: 75px !important;left: 40% !important;top: 75px !important;text-align: left;}
         }
     }
 

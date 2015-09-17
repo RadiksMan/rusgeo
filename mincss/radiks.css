@@ -1623,6 +1623,9 @@
   position: absolute;
   top: 25px;
   left: 40%;
+  right: auto;
+  min-width: 111px;
+  padding-left: 0px !important;
 }
 
 .katalog-item.line .product-item .product-item-bottom {
@@ -1633,8 +1636,11 @@
   position: absolute;
   bottom: auto !important;
   padding-bottom: 0;
-  right: 49% !important;
+  right: auto !important;
   top: 75px !important;
+  left: 40% !important;
+  top: 75px !important;
+  text-align: left;
 }
 
 .product-items-wrap {
