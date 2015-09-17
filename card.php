@@ -66,7 +66,7 @@
                 </div>
             </div>
             <div class="right-content-wrap">
-                <div class="card-item cfix">
+                <div class="card-item">
                     <div class="card-item-left">
                         <div class="card-sticker">
                             <div class="sticker red">New</div>
@@ -186,6 +186,173 @@
                                 <span class="icon delivery-icon car"></span>
                                 <span class="delivery-text-decor">Доставка</span>
                                 <span>- завтра, 01 мая</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-item-description-top card-item-description-wrap">
+                    <h2>GNSS приемник Trimble R4 mega x-drive geokorol</h2>
+                    <p>GNSS приемник Trimble R4 представляет собой многочастотный мультиканальный приемник ГНСС, сконструированный на базе чипа Maxwell 6, и предназначен для отслеживания и обработки сигналов со спутников навигационных систем и получения координат.</p>
+                    <p>Trimble R4 имеет моноблочную конструкцию и выполнен в герметичном корпусе с интегрированной антенной, Bluetooth-модулем, встроенной батареей питания и модемом. Прибор подходит для выполнения топографической съёмки в ходе геодезических изысканий и позволяет осуществлять разбивку и исполнительную съемку в строительстве.</p>
+                    <br />
+                    <br />
+                    <p>Для обеспечения высокой точности получаемых результатов необходимо, чтоб приемник мог одновременно фиксировать как можно большее количество спутников и корректно обрабатывать</p>
+                </div>
+                <div class="card-item-params card-item-description-wrap">
+                    <h2>Технические характеристики</h2>
+                    <div class="card-item-params-tabs">
+                        <ul>
+                            <li class="active">Краткие</li>
+                            <li>Все характеристики</li>
+                        </ul>
+                    </div>
+                    <div class="card-item-params-tabs-main">
+                        <div class="card-item-params-wrap active">
+                            <div class="card-item-params-row">
+                                <div class="card-item-params-title">Дифференциальное позиционирование по коду</div>
+                                <div class="card-item-params-content">
+                                    <div class="card-item-params-content-row">
+                                        <div class="card-item-params-key card-item-params-line-desc">
+                                            <span>В плане</span>
+                                        </div>
+                                        <div class="card-item-params-value card-item-params-line-desc">
+                                            <span>± 0,25 м + 1 мм/км СКО</span>
+                                        </div>
+                                    </div>
+                                    <div class="card-item-params-content-row">
+                                        <div class="card-item-params-key card-item-params-line-desc">
+                                            <span>По высоте</span>
+                                        </div>
+                                        <div class="card-item-params-value card-item-params-line-desc">
+                                            <span>± 0,50 м + 1 мм/км СКО</span>
+                                        </div>
+                                    </div>
+                                    <div class="card-item-params-content-row">
+                                        <div class="card-item-params-key card-item-params-line-desc">
+                                            <span>Точность дифференциального</span><br />
+                                            <span>позиционирования SBAS</span>
+                                        </div>
+                                        <div class="card-item-params-value card-item-params-line-desc">
+                                            <span>обычно &#60;5 м (3 СКО)</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card-item-params-row">
+                                <div class="card-item-params-title">Высокоточная статическая-съемка</div>
+                                <div class="card-item-params-content">
+                                    <div class="card-item-params-content-row">
+                                        <div class="card-item-params-key card-item-params-line-desc">
+                                            <span>В плане</span>
+                                        </div>
+                                        <div class="card-item-params-value card-item-params-line-desc">
+                                            <span>± 3 мм+ 0,1 мм/км СКО</span>
+                                        </div>
+                                    </div>
+                                    <div class="card-item-params-content-row">
+                                        <div class="card-item-params-key card-item-params-line-desc">
+                                            <span>По высоте</span>
+                                        </div>
+                                        <div class="card-item-params-value card-item-params-line-desc">
+                                            <span>± 3,5 мм + 0,4 мм/км СКО</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card-item-params-row">
+                                <div class="card-item-params-title">Статическая и быстростатическая GNSS-съемка</div>
+                                <div class="card-item-params-content">
+                                    <div class="card-item-params-content-row">
+                                        <div class="card-item-params-key card-item-params-line-desc">
+                                            <span>В плане</span>
+                                        </div>
+                                        <div class="card-item-params-value card-item-params-line-desc">
+                                            <span>± 3 мм + 0,1 мм/км (СКО)</span>
+                                        </div>
+                                    </div>
+                                    <div class="card-item-params-content-row">
+                                        <div class="card-item-params-key card-item-params-line-desc">
+                                            <span>По высоте</span>
+                                        </div>
+                                        <div class="card-item-params-value card-item-params-line-desc">
+                                            <span>± 3,5 мм + 0,4 мм/км (СКО)</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-item-params-wrap">
+                            <div class="card-item-params-row">
+                                <div class="card-item-params-title">Дифференциальное позиционирование по коду2</div>
+                                <div class="card-item-params-content">
+                                    <div class="card-item-params-content-row">
+                                        <div class="card-item-params-key card-item-params-line-desc">
+                                            <span>В плане2</span>
+                                        </div>
+                                        <div class="card-item-params-value card-item-params-line-desc">
+                                            <span>± 0,25 м + 1 мм/км СКО</span>
+                                        </div>
+                                    </div>
+                                    <div class="card-item-params-content-row">
+                                        <div class="card-item-params-key card-item-params-line-desc">
+                                            <span>По высоте2</span>
+                                        </div>
+                                        <div class="card-item-params-value card-item-params-line-desc">
+                                            <span>± 0,50 м + 1 мм/км СКО</span>
+                                        </div>
+                                    </div>
+                                    <div class="card-item-params-content-row">
+                                        <div class="card-item-params-key card-item-params-line-desc">
+                                            <span>Точность дифференциального</span><br />
+                                            <span>позиционирования SBAS2</span>
+                                        </div>
+                                        <div class="card-item-params-value card-item-params-line-desc">
+                                            <span>обычно &#60;5 м (3 СКО)</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card-item-params-row">
+                                <div class="card-item-params-title">Высокоточная статическая-съемка2</div>
+                                <div class="card-item-params-content">
+                                    <div class="card-item-params-content-row">
+                                        <div class="card-item-params-key card-item-params-line-desc">
+                                            <span>В плане</span>
+                                        </div>
+                                        <div class="card-item-params-value card-item-params-line-desc">
+                                            <span>± 3 мм+ 0,1 мм/км СКО</span>
+                                        </div>
+                                    </div>
+                                    <div class="card-item-params-content-row">
+                                        <div class="card-item-params-key card-item-params-line-desc">
+                                            <span>По высоте</span>
+                                        </div>
+                                        <div class="card-item-params-value card-item-params-line-desc">
+                                            <span>± 3,5 мм + 0,4 мм/км СКО</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card-item-params-row">
+                                <div class="card-item-params-title">Статическая и быстростатическая GNSS-съемка2</div>
+                                <div class="card-item-params-content">
+                                    <div class="card-item-params-content-row">
+                                        <div class="card-item-params-key card-item-params-line-desc">
+                                            <span>В плане</span>
+                                        </div>
+                                        <div class="card-item-params-value card-item-params-line-desc">
+                                            <span>± 3 мм + 0,1 мм/км (СКО)</span>
+                                        </div>
+                                    </div>
+                                    <div class="card-item-params-content-row">
+                                        <div class="card-item-params-key card-item-params-line-desc">
+                                            <span>По высоте</span>
+                                        </div>
+                                        <div class="card-item-params-value card-item-params-line-desc">
+                                            <span>± 3,5 мм + 0,4 мм/км (СКО)</span>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
