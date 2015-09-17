@@ -4731,3 +4731,78 @@
   min-width: 175px;
   font-size: 14px;
 }
+
+.rent_card_page .navigation_block_wrap_title {
+  padding-left: 5px;
+  padding-right: 5px;
+  font-size: 16px;
+  color: #38393a;
+  padding-top: 20px;
+  padding-bottom: 15px;
+}
+
+.rent_card_page .navigation_block .navigation_block_wrap {
+  padding: 0px 10px;
+}
+
+.rent_card_page .card-item-right .card-item-right-wrap {
+  padding: 20px;
+}
+
+.rent_card_page .card-item-right .card-item-right-wrap .card-item-topInf span {
+  margin-left: 0;
+  padding-left: 0px;
+}
+
+.rent_card_page .card-item-description {
+  font-size: 14px;
+  color: #7f8c8d;
+  padding-bottom: 10px;
+}
+
+.rent_card_page .card-item-description p {
+  margin-bottom: 11px;
+}
+
+.rent_card_page .card-item-right .card-item-right-wrap .blue-line {
+  margin-bottom: 33px;
+}
+
+.rent_card_page .card-item-bottom-calc span {
+  font-size: 14px;
+  color: #38393a;
+  font-weight: 600;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.rent_card_page .card-item-bottom-calc input {
+  text-align: center;
+  width: 50px;
+  height: 30px;
+  display: inline-block;
+  vertical-align: middle;
+  border: 1px solid #dddde0;
+  border-radius: 4px;
+  font-size: 14px;
+  color: #38393a;
+  font-weight: 600;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.rent_card_page .card-item-bottom-calc .calc-price {
+  font-size: 18px;
+  color: #393c3d;
+  font-weight: bold;
+  margin-left: 5px;
+}
+
+.rent_card_page .card-item-bottom-calc .button {
+  min-width: 110px;
+  width: auto;
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 14px;
+  margin-left: 27px;
+}

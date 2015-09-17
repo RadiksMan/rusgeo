@@ -422,7 +422,34 @@ function block_elect_item_remove_button(){
     });
 }
 
+function rentCardCalc(){
+    var itemProduct = $('.rent-item');
+
+    $(document).on('change', '.card-item-bottom-calc input', function() {
+        calcSum();
+    });
+
+    function calcSum(){
+        var day_3 = itemProduct.find('.card-item-description .day_3').text();
+        var day_2 = itemProduct.find('.card-item-description .day_2').text();
+        var day_1 = itemProduct.find('.card-item-description .day_1').text();
+        var inp = itemProduct.find('.card-item-bottom-calc input').val();
+        var sum = 0;
+        if(7<=inp && inp<=14){
+            sum = inp*parseInt(day_1);
+        }else if(15<=inp && inp<=30){
+             sum = inp*parseInt(day_2);
+        }else if(30<inp){
+             sum = inp*parseInt(day_3);
+        }else{
+            sum = 0;
+        }
+        itemProduct.find('.card-item-bottom-calc .calc-price').text(sum);
+    }
+}
+
 $(document).ready(function() {
+    rentCardCalc();
     block_elect_item_remove_button();
     block_elect_item_one_height();
     rentCalc()
