@@ -1132,6 +1132,99 @@
                         </div>
                     </div>
                 </div>
+
+                <!-- reccomend product -->
+                <div class="card-item-reccomend-product">
+                    <div class="card-item-reccomend-product-wrap">
+                        <div class="card-item-reccomend-product-title">Рекомендуем</div>
+                        <div class="card-item-reccomend-products cfix katalog-item">
+                            <div class="product-item">
+                                <div class="product-item-wrapper">
+                                    <div class="product-item-top">
+                                        <div class="product-item-img-wrap">
+                                            <div class="product-item-img vfix-before">
+                                                <img src="images/popular_item_4.png" alt="" />
+                                            </div>
+                                        </div>
+                                        <div class="product-item-link"><a href="#">GPS Topcon GR-3</a></div>
+                                        <div class="product-item-description">
+                                            <p>Точность измерения углов - 5";</p>
+                                            <p>Увеличение - 30 крат.</p>
+                                        </div>
+                                        <div class="product-item-price">
+                                            <div class="product-item-new-price">369120 .-</div>
+                                            <div class="product-item-old-price">450900 .-</div>
+                                        </div>
+                                    </div>
+                                    <div class="product-item-bottom">
+                                        <div class="product-item-link">
+                                            <a href="#" class="button product-item-button">
+                                                <span class="icon item-basked-icon"></span>
+                                                <span class="item-link-text">Купить</span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="product-item">
+                                <div class="product-item-wrapper">
+                                    <div class="product-item-top">
+                                        <div class="product-item-img-wrap">
+                                            <div class="product-item-img vfix-before">
+                                                <img src="images/popular_item_4.png" alt="" />
+                                            </div>
+                                        </div>
+                                        <div class="product-item-link"><a href="#">GPS Topcon GR-3</a></div>
+                                        <div class="product-item-description">
+                                            <p>Точность измерения углов - 5";</p>
+                                            <p>Увеличение - 30 крат.</p>
+                                        </div>
+                                        <div class="product-item-price">
+                                            <div class="product-item-new-price">369120 .-</div>
+                                            <div class="product-item-old-price">450900 .-</div>
+                                        </div>
+                                    </div>
+                                    <div class="product-item-bottom">
+                                        <div class="product-item-link">
+                                            <a href="#" class="button product-item-button">
+                                                <span class="icon item-basked-icon"></span>
+                                                <span class="item-link-text">Купить</span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="product-item">
+                                <div class="product-item-wrapper">
+                                    <div class="product-item-top">
+                                        <div class="product-item-img-wrap">
+                                            <div class="product-item-img vfix-before">
+                                                <img src="images/popular_item_4.png" alt="" />
+                                            </div>
+                                        </div>
+                                        <div class="product-item-link"><a href="#">GPS Topcon GR-3</a></div>
+                                        <div class="product-item-description">
+                                            <p>Точность измерения углов - 5";</p>
+                                            <p>Увеличение - 30 крат.</p>
+                                        </div>
+                                        <div class="product-item-price">
+                                            <div class="product-item-new-price">369120 .-</div>
+                                            <div class="product-item-old-price">450900 .-</div>
+                                        </div>
+                                    </div>
+                                    <div class="product-item-bottom">
+                                        <div class="product-item-link">
+                                            <a href="#" class="button product-item-button">
+                                                <span class="icon item-basked-icon"></span>
+                                                <span class="item-link-text">Купить</span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
