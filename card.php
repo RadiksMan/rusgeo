@@ -1137,7 +1137,7 @@
                 <div class="card-item-reccomend-product">
                     <div class="card-item-reccomend-product-wrap">
                         <div class="card-item-reccomend-product-title">Рекомендуем</div>
-                        <div class="card-item-reccomend-products cfix katalog-item">
+                        <div class="card-item-reccomend-products cfix product-items-wrap katalog-item">
                             <div class="product-item">
                                 <div class="product-item-wrapper">
                                     <div class="product-item-top">
