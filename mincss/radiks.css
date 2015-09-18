@@ -4906,4 +4906,9 @@
 
 .card-item-reccomend-product .product-item {
   background-color: transparent;
+  margin-right: 8px !important;
+}
+
+.card-item-reccomend-product .product-item:last-child {
+  margin-right: 0;
 }

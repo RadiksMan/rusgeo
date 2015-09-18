@@ -1381,6 +1381,8 @@ top: 50%;transform: translate(-50%,-50%);}
     .card-item-reccomend-product-title{color: #242423;font-size: 24px;font-family: "PT Sans",sans-serif;padding-bottom: 20px;}
     .card-item-reccomend-product-wrap{padding: 10px;background-color: #f8f6f2;border-top: 1px solid #ebebeb;padding-bottom: 44px;}
     .product-items-wrap{padding-bottom: 0;}
-    .product-item{background-color: transparent;}
+    .product-item{background-color: transparent;margin-right: 8px !important;
+        &:last-child{margin-right: 0;}
+    }
 
 }
