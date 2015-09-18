@@ -498,6 +498,7 @@ $(window).load(function() {
     productItemsHeightElem($('.reccomend-item .product-item'));
     productItemsHeightElem($('.popular-item .product-item'));
     productItemsHeightElem($('.katalog-item .product-item'));
+    productItemsHeightElem($('.card-item-reccomend-product .product-item'));// page card
 });
 $(window).resize(function() {
     productItemsHeightElem($('.reccomend-item .product-item'));
