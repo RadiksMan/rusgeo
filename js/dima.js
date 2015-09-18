@@ -149,13 +149,12 @@ function cardSliders(){
 
     function oneSliderItemsHeight(){
 
-        if($('.card-tabs-sliders-main-item.active:not(.heighed)')){
+        if(!$('.card-tabs-sliders-main-item.active').is('.heighed')){
             var height = 0;
             $('.card-tabs-sliders-main-item.active').addClass('heighed');
             $('.card-tabs-sliders-main-item.active .card-product-item:not(.heighed)').each(function(){
                 $(this).addClass('heighed');
                 var itemHeight = $('.product-item').height();
-                console.log(itemHeight);
                 if (itemHeight > height){
                     height = itemHeight;
                 }
@@ -167,17 +166,17 @@ function cardSliders(){
     }
 
     function initSlider(){
-        if($('.slick-inited').length>0){
+        /*if($('.slick-inited').length>0){
             $('.card-tabs-sliders-main-item.active').slick('unslick');
         }
-        $('.card-tabs-sliders-main-item.active').addClass('slick-inited');
+        $('.card-tabs-sliders-main-item.active').addClass('slick-inited');*/
 
-        $('.card-tabs-sliders-main-item.active').slick({
+        $('.card-tabs-sliders-main-item.active:not(.slick-inited)').slick({
             slidesToShow: 3,
-            slidesToScroll: 1,
+            slidesToScroll: 3,
             infinite:false,
             draggable:false
-        });
+        }).addClass('slick-inited');
     }
 
     $(window).load(function(){
@@ -193,6 +192,10 @@ function cardSliders(){
             $(this).parents('.slick-list').removeAttr('style');
         }
     );
+
+    $('.card-tabs-sliders-nav').click(function(){
+        oneSliderItemsHeight();
+    });
 
 };
 

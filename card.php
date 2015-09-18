@@ -377,23 +377,23 @@
                     <div class="card-tabs-sliders-title">Аксессуары</div>
                     <div class="card-tabs-sliders-nav">
                         <ul>
-                            <li class="active" data-tab='0'>
-                                <span>Все</span>
+                            <li>
+                                <span data-tab='0' class="active">Все</span>
                             </li>
-                            <li data-tab='1'>
-                                <span>Геодезические</span>
+                            <li>
+                                <span data-tab='1'>Геодезические</span>
                             </li>
-                            <li data-tab='2'>
-                                <span>Гомеопатические</span>
+                            <li>
+                                <span data-tab='2'>Гомеопатические</span>
                             </li>
-                            <li data-tab='3'>
-                                <span>Легкие приборы</span>
+                            <li>
+                                <span data-tab='3'>Легкие приборы</span>
                             </li>
-                            <li data-tab='4'>
-                                <span>Деградирующие</span>
+                            <li>
+                                <span data-tab='4'>Деградирующие</span>
                             </li>
-                            <li data-tab='5'>
-                                <span>Адаптация к климату</span>
+                            <li>
+                                <span data-tab='5'>Адаптация к климату</span>
                             </li>
                         </ul>
                     </div>
