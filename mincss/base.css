@@ -192,6 +192,7 @@ p {
   margin: 0;
   box-shadow: none;
   background: #b1def0;
+  background: -webkit-linear-gradient(top, #b1def0 0%, #6fa0b4 100%);
   background: linear-gradient(to bottom, #b1def0 0%, #6fa0b4 100%);
   position: relative;
 }
@@ -236,12 +237,15 @@ p {
   width: 28px;
   background-color: #A9ACAD;
   -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
   transform: rotate(45deg);
+  -webkit-transition: all ease 0.1s;
   transition: all ease 0.1s;
 }
 
 .fancybox-wrap .fancybox-close:after {
   -webkit-transform: rotate(135deg);
+  -ms-transform: rotate(135deg);
   transform: rotate(135deg);
 }
 

@@ -40,7 +40,7 @@ gulp.task('sass', function () {
     // Run Sass on those files
     .pipe(sass({outputStyle: 'expanded'}).on('error', sass.logError))
     .pipe(autoprefixer({
-        browsers: ['last 2 versions'],
+        //browsers: ['Firefox > 20'],
         cascade: false
     }))
     // Write the resulting CSS in the output folder

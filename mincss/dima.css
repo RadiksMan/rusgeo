@@ -6,6 +6,7 @@
 .left-column-wrap {
   width: 230px;
   float: left;
+  -webkit-transition: all ease-out 0.4s;
   transition: all ease-out 0.4s;
 }
 
@@ -310,11 +311,13 @@
   left: -6px;
   right: -3px;
   background-color: #7eb4cb;
+  -ms-transform-origin: 0 0;
   transform-origin: 0 0;
   -webkit-transform-origin: 0 0;
   -moz-transform-origin: 0 0;
   -khtml-transform-origin: 0 0;
   -o-transform-origin: 0 0;
+  -ms-transform: rotate(-12deg);
   transform: rotate(-12deg);
   -webkit-transform: rotate(-12deg);
   -moz-transform: rotate(-12deg);
