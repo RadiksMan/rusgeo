@@ -640,6 +640,7 @@
   height: auto;
   opacity: 1;
   z-index: 1;
+  overflow: visible;
 }
 
 .card-tabs-sliders .card-tabs-sliders-main .card-tabs-sliders-main-item .slick-list {
