@@ -1098,14 +1098,29 @@
   margin-top: -5px;
 }
 
-.footer .footer-bottom .bf_social:hover {
+.footer .footer-bottom .bf_social a {
+  display: inline-block;
+  padding-left: 16px;
+}
+
+.footer .footer-bottom .bf_social a:hover {
   transition: all ease .2;
   opacity: .8;
 }
 
-.footer .footer-bottom .bf_social a {
+.footer .footer-bottom .bf_social a span {
+  height: 26px;
+  width: 26px;
+  border-radius: 50%;
+  border: 1px solid #c0c6ca;
+  display: block;
+  text-align: center;
+}
+
+.footer .footer-bottom .bf_social a span img {
   display: inline-block;
-  padding-left: 16px;
+  vertical-align: middle;
+  padding-top: 5px;
 }
 
 .footer .footer-bottom .site_map {

@@ -88,8 +88,8 @@
                         <span>© 2014. PУСГЕОКОМ</span>
                     </div>
                     <div class="bf_social">
-                        <a href="#"><img src="images/social_icon_2.svg" alt=""></a>
-                        <a href="#"><img src="images/social_icon_1.svg" alt=""></a>
+                        <a href="#"><span class="bf_social_item"><img src="images/bf_social_item_1.png"  alt=""></span></a>
+                        <a href="#"><span class="bf_social_item"><img src="images/bf_social_item_2.png"  alt=""></span></a>
                     </div>
                     <div class="site_map">
                         <a href="#">
