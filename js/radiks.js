@@ -331,14 +331,19 @@ function block_news_items_one_height(){
     }
 }
 function pikupSelectWrap(){
-    function pikupSelect(){
-        var selected = $('#pickup').val();
-        $('.pickup_adres_wrap div').removeClass('active');
-        $('.pickup_adres_wrap').find("#"+selected).addClass('active');
+    function pikupSelect(item){
+        var selected = item.val();
+        var parent = item.parents('.pickup');
+        console.log(selected);
+        parent.find('.pickup_adres_wrap div').removeClass('active');
+        parent.find('.pickup_adres_wrap').find("#"+selected).addClass('active');
     }
-    pikupSelect();
+    $('.pickup').each(function(){
+        pikupSelect($(this).find("#pickup"));
+    });
+
     $(document).on('change', '#pickup', function() {
-        pikupSelect();
+        pikupSelect($(this));
     });
     $('.pickup_adres_show_more_title').click(function() {
         $(this).toggleClass('active');

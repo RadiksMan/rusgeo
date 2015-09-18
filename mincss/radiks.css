@@ -2806,6 +2806,7 @@
   font-size: 14px;
   display: inline-block;
   vertical-align: middle;
+  width: 240px;
 }
 
 .remont_status .remont_status_inp_button {
@@ -4138,6 +4139,10 @@
   height: 39px;
   width: auto;
   cursor: pointer;
+}
+
+.files_wrap {
+  padding-bottom: 100px;
 }
 
 .files_wrap .title {

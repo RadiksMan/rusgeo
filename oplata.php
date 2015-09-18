@@ -101,10 +101,11 @@
                 <div class="pickup">
                     <div class="pickup_title">Оплата физическими лицами:</div>
                     <div class="pickup_sub_title">
-                        <span><b>Наличный</b> – курьеру или в офисе продаж</span> <select name="pickup" id="pickup">
+                        <span><b>Наличный</b> – курьеру или в офисе продаж</span>
+                        <select name="pickup" id="pickup">
                             <option id="" value="moscow">Москва</option>
-                            <option id="" value="moscow2">Lorem ipsum.</option>
-                            <option id="" value="moscow3">Lorem ipsum dolor.</option>
+                            <option id="" value="moscow4">Lorem ipsum.</option>
+                            <option id="" value="moscow5">Lorem ipsum dolor.</option>
                         </select>
                     </div>
                     <div class="pickup_adres_wrap">
@@ -132,7 +133,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="pickup_adres active" id="moscow2">
+                        <div class="pickup_adres active" id="moscow4">
                             <div class="pickup_adres_row">
                                 <span>г. Москва, ул. Коминтерна, д. 7, корп. 2, офис 110<a href="https://maps.yandex.ua/?ol=biz&oid=1183109131&ll=37.67681%2C55.863945&z=15&from=1org_map" target="_blank">Показать на карте</a></span>
                             </div>
@@ -156,7 +157,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="pickup_adres active" id="moscow3">
+                        <div class="pickup_adres active" id="moscow5">
                             <div class="pickup_adres_row">
                                 <span>Lorem ipsum.<a href="https://maps.yandex.ua/?ol=biz&oid=1183109131&ll=37.67681%2C55.863945&z=15&from=1org_map" target="_blank">Показать на карте</a></span>
                             </div>
