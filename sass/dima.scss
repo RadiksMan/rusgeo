@@ -231,7 +231,7 @@
                     .card-item-params-content{
                         .card-item-params-content-row{margin-bottom: 2px;position: relative;
                             &:after{content: '';display: block;position: absolute;width: 100%;height: 1px;left: 0;top: 12px;background-image:url(../images/dashed-border.png);z-index: 0;}
-                            .card-item-params-line-desc{display: inline-block;width: 49%;z-index: 1;position: relative;vertical-align: top;
+                            .card-item-params-line-desc{display: inline-block;width: 50%;z-index: 1;position: relative;vertical-align: top;
                                 &.card-item-params-key{text-align: left;
                                     span{padding-right: 3px;max-width: 200px;}
                                 }

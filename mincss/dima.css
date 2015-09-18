@@ -725,7 +725,7 @@
 
 .card-page .card-item-description-wrap .card-item-params-tabs-main .card-item-params-wrap .card-item-params-row .card-item-params-content .card-item-params-content-row .card-item-params-line-desc {
   display: inline-block;
-  width: 49%;
+  width: 50%;
   z-index: 1;
   position: relative;
   vertical-align: top;
