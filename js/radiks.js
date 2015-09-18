@@ -387,7 +387,6 @@ function rentCalc(){
     $('.product-item-calc-button').click(function() {
         $(this).parent().parent().find('.product-item-bottom').addClass('active');
         itemProduct = $(this).parent().parent().parent();
-        console.log(itemProduct);
     });
     $('.product-item-bottom-close').click(function() {
         $(this).parent().parent().find('.product-item-bottom').removeClass('active');
@@ -396,26 +395,19 @@ function rentCalc(){
     });
 
     $(document).on('change', '.product-item-bottom-calc input', function() {
-        calcSum();
+        var val = parseInt($(this).val());
+        var parent = $(this).parent().parent().parent();
+
+        parent.find('.product-item-description p').each(function(){
+            if(val >= $(this).find('.min-date').text() && val <= $(this).find('.max-date').text()){
+                var count = $(this).find('.count').text();
+                var hui = val*count;
+                parent.find('.product-item-bottom-price .calc-price').text(hui);
+                return false;
+            }
+        });
     });
 
-    function calcSum(){
-        var day_3 = itemProduct.find('.product-item-description .day_3').text();
-        var day_2 = itemProduct.find('.product-item-description .day_2').text();
-        var day_1 = itemProduct.find('.product-item-description .day_1').text();
-        var inp = itemProduct.find('.product-item-bottom-calc input').val();
-        var sum = 0;
-        if(7<=inp && inp<=14){
-            sum = inp*parseInt(day_1);
-        }else if(15<=inp && inp<=30){
-             sum = inp*parseInt(day_2);
-        }else if(30<inp){
-             sum = inp*parseInt(day_3);
-        }else{
-            sum = 0;
-        }
-        itemProduct.find('.product-item-bottom-price .calc-price').text(sum);
-    }
 }
 
 
@@ -438,28 +430,21 @@ function block_elect_item_remove_button(){
 }
 
 function rentCardCalc(){
-    var itemProduct = $('.rent-item');
+    if($('.rent_card_calc').length > 0){
+        $(document).on('change', '.card-item-bottom-calc input', function() {
+            var val = parseInt($(this).val());
+            var parent = $('.card-item-right');
 
-    $(document).on('change', '.card-item-bottom-calc input', function() {
-        calcSum();
-    });
-
-    function calcSum(){
-        var day_3 = itemProduct.find('.card-item-description .day_3').text();
-        var day_2 = itemProduct.find('.card-item-description .day_2').text();
-        var day_1 = itemProduct.find('.card-item-description .day_1').text();
-        var inp = itemProduct.find('.card-item-bottom-calc input').val();
-        var sum = 0;
-        if(7<=inp && inp<=14){
-            sum = inp*parseInt(day_1);
-        }else if(15<=inp && inp<=30){
-             sum = inp*parseInt(day_2);
-        }else if(30<inp){
-             sum = inp*parseInt(day_3);
-        }else{
-            sum = 0;
-        }
-        itemProduct.find('.card-item-bottom-calc .calc-price').text(sum);
+            parent.find('.card-item-description p').each(function(){
+                if(val >= $(this).find('.min-date').text() && val <= $(this).find('.max-date').text()){
+                    var count = $(this).find('.count').text();
+                    var hui = val*count;
+                     console.log(hui);
+                    parent.find('.card-item-bottom-calc .calc-price').text(hui);
+                    return false;
+                }
+            });
+        });
     }
 }
 function card_similar_products_Slider_Init() {

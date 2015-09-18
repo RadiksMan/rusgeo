@@ -214,9 +214,9 @@
                                             </div>
                                             <div class="product-item-link"><a href="#">GPS Topcon GR-3</a></div>
                                             <div class="product-item-description">
-                                                <p>31 - 60 дней - <span class="day_3">300</span>.-/день</p>
-                                                <p>15 - 30 дней - <span class="day_2">700</span>.-/день</p>
-                                                <p>7 - 14 дней - <span class="day_1">800</span>.-/день</p>
+                                                <p><span class="min-date">31</span>-<span class="max-date">60</span>дней - <span class="count">300</span>.-/день</p>
+                                                <p><span class="min-date">15</span>-<span class="max-date">30</span> дней - <span class="count">700</span>.-/день</p>
+                                                <p><span class="min-date">7</span>-<span class="max-date">14</span> дней - <span class="count">800</span>.-/день</p>
                                             </div>
                                             <div class="product-item-calc-button">
                                                 <span class="icon icon-calc"></span> <span>Расчитать стоимость</span>
@@ -259,9 +259,9 @@
                                             </div>
                                             <div class="product-item-link"><a href="#">GPS Topcon GR-3</a></div>
                                             <div class="product-item-description">
-                                                <p>31 - 60 дней - <span class="day_3">520</span>.-/день</p>
-                                                <p>15 - 30 дней - <span class="day_2">670</span>.-/день</p>
-                                                <p>7 - 14 дней - <span class="day_1">770</span>.-/день</p>
+                                                <p><span class="min-date">31</span>-<span class="max-date">60</span>дней - <span class="count">30</span>.-/день</p>
+                                                <p><span class="min-date">15</span>-<span class="max-date">30</span> дней - <span class="count">20</span>.-/день</p>
+                                                <p><span class="min-date">7</span>-<span class="max-date">14</span> дней - <span class="count">10</span>.-/день</p>
                                             </div>
                                             <div class="product-item-calc-button">
                                                 <span class="icon icon-calc"></span> <span>Расчитать стоимость</span>
@@ -304,9 +304,9 @@
                                             </div>
                                             <div class="product-item-link"><a href="#">GPS Topcon GR-3</a></div>
                                             <div class="product-item-description">
-                                                <p>31 - 60 дней - <span class="day_3">520</span>.-/день</p>
-                                                <p>15 - 30 дней - <span class="day_2">670</span>.-/день</p>
-                                                <p>7 - 14 дней - <span class="day_1">770</span>.-/день</p>
+                                                <p><span class="min-date">31</span>-<span class="max-date">60</span>дней - <span class="count">200</span>.-/день</p>
+                                                <p><span class="min-date">15</span>-<span class="max-date">30</span> дней - <span class="count">250</span>.-/день</p>
+                                                <p><span class="min-date">7</span>-<span class="max-date">14</span> дней - <span class="count">300</span>.-/день</p>
                                             </div>
                                             <div class="product-item-calc-button">
                                                 <span class="icon icon-calc"></span> <span>Расчитать стоимость</span>
@@ -349,9 +349,9 @@
                                             </div>
                                             <div class="product-item-link"><a href="#">GPS Topcon GR-3</a></div>
                                             <div class="product-item-description">
-                                                <p>31 - 60 дней - <span class="day_3">300</span>.-/день</p>
-                                                <p>15 - 30 дней - <span class="day_2">700</span>.-/день</p>
-                                                <p>7 - 14 дней - <span class="day_1">800</span>.-/день</p>
+                                                <p><span class="min-date">31</span>-<span class="max-date">60</span>дней - <span class="count">200</span>.-/день</p>
+                                                <p><span class="min-date">15</span>-<span class="max-date">30</span> дней - <span class="count">250</span>.-/день</p>
+                                                <p><span class="min-date">7</span>-<span class="max-date">14</span> дней - <span class="count">300</span>.-/день</p>
                                             </div>
                                             <div class="product-item-calc-button">
                                                 <span class="icon icon-calc"></span> <span>Расчитать стоимость</span>
@@ -394,9 +394,9 @@
                                             </div>
                                             <div class="product-item-link"><a href="#">GPS Topcon GR-3</a></div>
                                             <div class="product-item-description">
-                                                <p>31 - 60 дней - <span class="day_3">520</span>.-/день</p>
-                                                <p>15 - 30 дней - <span class="day_2">670</span>.-/день</p>
-                                                <p>7 - 14 дней - <span class="day_1">770</span>.-/день</p>
+                                                <p><span class="min-date">31</span>-<span class="max-date">60</span>дней - <span class="count">300</span>.-/день</p>
+                                                <p><span class="min-date">15</span>-<span class="max-date">30</span> дней - <span class="count">500</span>.-/день</p>
+                                                <p><span class="min-date">7</span>-<span class="max-date">14</span> дней - <span class="count">600</span>.-/день</p>
                                             </div>
                                             <div class="product-item-calc-button">
                                                 <span class="icon icon-calc"></span> <span>Расчитать стоимость</span>
@@ -439,9 +439,9 @@
                                             </div>
                                             <div class="product-item-link"><a href="#">GPS Topcon GR-3</a></div>
                                             <div class="product-item-description">
-                                                <p>31 - 60 дней - <span class="day_3">520</span>.-/день</p>
-                                                <p>15 - 30 дней - <span class="day_2">670</span>.-/день</p>
-                                                <p>7 - 14 дней - <span class="day_1">770</span>.-/день</p>
+                                                <p><span class="min-date">31</span>-<span class="max-date">60</span>дней - <span class="count">100</span>.-/день</p>
+                                                <p><span class="min-date">15</span>-<span class="max-date">30</span> дней - <span class="count">200</span>.-/день</p>
+                                                <p><span class="min-date">7</span>-<span class="max-date">14</span> дней - <span class="count">500</span>.-/день</p>
                                             </div>
                                             <div class="product-item-calc-button">
                                                 <span class="icon icon-calc"></span> <span>Расчитать стоимость</span>
