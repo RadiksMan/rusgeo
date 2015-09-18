@@ -2881,6 +2881,7 @@
 .information .right-column-wrap {
   width: 230px;
   float: right;
+  text-align: center;
 }
 
 .information .left-content-wrap {
@@ -2893,7 +2894,7 @@
 
 .information_wrap .title {
   padding-top: 22px;
-  padding-bottom: 2px;
+  padding-bottom: 25px;
   padding-left: 10px;
   padding-right: 10px;
 }

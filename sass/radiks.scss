@@ -814,11 +814,11 @@
         text-align: center;color: #38393a;font-size: 30px;font-family: "PT Sans",sans-serif;padding-top: 41px;padding-bottom: 43px;}
 
 .information{
-    .right-column-wrap{width: 230px;float: right;}
+    .right-column-wrap{width: 230px;float: right;text-align: center;}
     .left-content-wrap{margin-right: 240px;}
 }
 .information_wrap{padding-bottom: 52px;
-    .title{padding-top: 22px;padding-bottom: 2px;padding-left: 10px;padding-right: 10px;}
+    .title{padding-top: 22px;padding-bottom: 25px;padding-left: 10px;padding-right: 10px;}
     .information_row{border-bottom:1px solid #dddde0;padding-right: 80px;padding-left: 10px;
         &:last-child{}
         &:hover{
