@@ -1227,92 +1227,130 @@
                 </div>
 
                 <!-- similar -->
-                <div class="card-item-similar-product">
+                <div class="card-item-similar-product card-tabs-sliders">
                     <div class="card-item-similar-product-wrap">
                         <div class="card-item-similar-product-title">
                             <span>Похожие товары </span>
                         </div>
-                        <div class="card-item-similar-products">
-                            <div class="product-item">
-                                <div class="product-item-wrapper">
-                                    <div class="product-item-top">
-                                        <div class="product-item-img-wrap">
-                                            <div class="product-item-img vfix-before">
-                                                <img src="images/popular_item_3.png" alt="" />
+                        <div class="card-tabs-sliders-main">
+                            <div class="card-item-similar-products card-tabs-sliders-main-item active">
+                                <div class="card-product-item">
+                                    <div class="product-item">
+                                        <div class="product-item-wrapper">
+                                            <div class="product-item-top">
+                                                <div class="product-item-img-wrap">
+                                                    <div class="product-item-img vfix-before">
+                                                        <img src="images/popular_item_3.png" alt="" />
+                                                    </div>
+                                                </div>
+                                                <div class="product-item-link"><a href="#">Sokkia CX-105</a></div>
+                                                <div class="product-item-price">
+                                                    <div class="product-item-new-price">369120 .-</div>
+                                                </div>
                                             </div>
-                                        </div>
-                                        <div class="product-item-link"><a href="#">Sokkia CX-105</a></div>
-                                        <div class="product-item-price">
-                                            <div class="product-item-new-price">369120 .-</div>
-                                        </div>
-                                    </div>
-                                    <div class="product-item-bottom">
-                                        <div class="product-item-description">
-                                            <p>Точность измерения углов - 5";</p>
-                                            <p>Увеличение - 30 крат.</p>
-                                            <p>Дополнительно - компенсатор.</p>
-                                        </div>
-                                        <div class="product-item-link">
-                                            <a href="#" class="button product-item-button">
-                                                <span class="icon item-basked-icon"></span>
-                                                <span class="item-link-text">Купить</span>
-                                            </a>
+                                            <div class="product-item-bottom">
+                                                <div class="product-item-description">
+                                                    <p>Точность измерения углов - 5";</p>
+                                                    <p>Увеличение - 30 крат.</p>
+                                                    <p>Дополнительно - компенсатор.</p>
+                                                </div>
+                                                <div class="product-item-link">
+                                                    <a href="#" class="button product-item-button">
+                                                        <span class="icon item-basked-icon"></span>
+                                                        <span class="item-link-text">Купить</span>
+                                                    </a>
+                                                </div>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="product-item">
-                                <div class="product-item-wrapper">
-                                    <div class="product-item-top">
-                                        <div class="product-item-img-wrap">
-                                            <div class="product-item-img vfix-before">
-                                                <img src="images/popular_item_3.png" alt="" />
+                                <div class="card-product-item">
+                                    <div class="product-item">
+                                        <div class="product-item-wrapper">
+                                            <div class="product-item-top">
+                                                <div class="product-item-img-wrap">
+                                                    <div class="product-item-img vfix-before">
+                                                        <img src="images/popular_item_3.png" alt="" />
+                                                    </div>
+                                                </div>
+                                                <div class="product-item-link"><a href="#">Sokkia CX-105</a></div>
+                                                <div class="product-item-price">
+                                                    <div class="product-item-new-price">369120 .-</div>
+                                                </div>
                                             </div>
-                                        </div>
-                                        <div class="product-item-link"><a href="#">Sokkia CX-105</a></div>
-                                        <div class="product-item-price">
-                                            <div class="product-item-new-price">369120 .-</div>
-                                        </div>
-                                    </div>
-                                    <div class="product-item-bottom">
-                                        <div class="product-item-description">
-                                            <p>Точность измерения углов - 5";</p>
-                                            <p>Увеличение - 30 крат.</p>
-                                            <p>Дополнительно - компенсатор.</p>
-                                        </div>
-                                        <div class="product-item-link">
-                                            <a href="#" class="button product-item-button">
-                                                <span class="icon item-basked-icon"></span>
-                                                <span class="item-link-text">Купить</span>
-                                            </a>
+                                            <div class="product-item-bottom">
+                                                <div class="product-item-description">
+                                                    <p>Точность измерения углов - 5";</p>
+                                                    <p>Увеличение - 30 крат.</p>
+                                                    <p>Дополнительно - компенсатор.</p>
+                                                </div>
+                                                <div class="product-item-link">
+                                                    <a href="#" class="button product-item-button">
+                                                        <span class="icon item-basked-icon"></span>
+                                                        <span class="item-link-text">Купить</span>
+                                                    </a>
+                                                </div>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="product-item">
-                                <div class="product-item-wrapper">
-                                    <div class="product-item-top">
-                                        <div class="product-item-img-wrap">
-                                            <div class="product-item-img vfix-before">
-                                                <img src="images/popular_item_3.png" alt="" />
+                                <div class="card-product-item">
+                                    <div class="product-item">
+                                        <div class="product-item-wrapper">
+                                            <div class="product-item-top">
+                                                <div class="product-item-img-wrap">
+                                                    <div class="product-item-img vfix-before">
+                                                        <img src="images/popular_item_3.png" alt="" />
+                                                    </div>
+                                                </div>
+                                                <div class="product-item-link"><a href="#">Sokkia CX-105</a></div>
+                                                <div class="product-item-price">
+                                                    <div class="product-item-new-price">369120 .-</div>
+                                                </div>
+                                            </div>
+                                            <div class="product-item-bottom">
+                                                <div class="product-item-description">
+                                                    <p>Точность измерения углов - 5";</p>
+                                                    <p>Увеличение - 30 крат.</p>
+                                                    <p>Дополнительно - компенсатор.</p>
+                                                </div>
+                                                <div class="product-item-link">
+                                                    <a href="#" class="button product-item-button">
+                                                        <span class="icon item-basked-icon"></span>
+                                                        <span class="item-link-text">Купить</span>
+                                                    </a>
+                                                </div>
                                             </div>
                                         </div>
-                                        <div class="product-item-link"><a href="#">Sokkia CX-105</a></div>
-                                        <div class="product-item-price">
-                                            <div class="product-item-new-price">369120 .-</div>
-                                        </div>
                                     </div>
-                                    <div class="product-item-bottom">
-                                        <div class="product-item-description">
-                                            <p>Точность измерения углов - 5";</p>
-                                            <p>Увеличение - 30 крат.</p>
-                                            <p>Дополнительно - компенсатор.</p>
-                                        </div>
-                                        <div class="product-item-link">
-                                            <a href="#" class="button product-item-button">
-                                                <span class="icon item-basked-icon"></span>
-                                                <span class="item-link-text">Купить</span>
-                                            </a>
+                                </div>
+                                <div class="card-product-item">
+                                    <div class="product-item">
+                                        <div class="product-item-wrapper">
+                                            <div class="product-item-top">
+                                                <div class="product-item-img-wrap">
+                                                    <div class="product-item-img vfix-before">
+                                                        <img src="images/popular_item_3.png" alt="" />
+                                                    </div>
+                                                </div>
+                                                <div class="product-item-link"><a href="#">Sokkia CX-105</a></div>
+                                                <div class="product-item-price">
+                                                    <div class="product-item-new-price">369120 .-</div>
+                                                </div>
+                                            </div>
+                                            <div class="product-item-bottom">
+                                                <div class="product-item-description">
+                                                    <p>Точность измерения углов - 5";</p>
+                                                    <p>Увеличение - 30 крат.</p>
+                                                    <p>Дополнительно - компенсатор.</p>
+                                                </div>
+                                                <div class="product-item-link">
+                                                    <a href="#" class="button product-item-button">
+                                                        <span class="icon item-basked-icon"></span>
+                                                        <span class="item-link-text">Купить</span>
+                                                    </a>
+                                                </div>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>

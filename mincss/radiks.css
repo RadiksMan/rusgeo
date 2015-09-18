@@ -4884,6 +4884,7 @@
 
 .card-item-reccomend-product {
   margin-right: 8%;
+  padding-top: 90px;
 }
 
 .card-item-reccomend-product .card-item-reccomend-product-title {
@@ -4911,4 +4912,35 @@
 
 .card-item-reccomend-product .product-item:last-child {
   margin-right: 0;
+}
+
+.card-item-similar-product {
+  padding-bottom: 170px;
+  padding-top: 30px;
+}
+
+.card-item-similar-product .card-item-similar-product-title {
+  color: #242423;
+  font-size: 24px;
+  font-family: "PT Sans",sans-serif;
+  padding-bottom: 20px;
+  position: relative;
+}
+
+.card-item-similar-product .card-item-similar-product-title span {
+  position: relative;
+  z-index: 3;
+  background-color: #fff;
+  display: inline-block;
+  padding-right: 5px;
+}
+
+.card-item-similar-product .card-item-similar-product-title:after {
+  content: "";
+  position: absolute;
+  left: 2px;
+  height: 1px;
+  width: 100%;
+  background-color: #ebebeb;
+  top: 13px;
 }

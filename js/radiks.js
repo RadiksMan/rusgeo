@@ -462,8 +462,27 @@ function rentCardCalc(){
         itemProduct.find('.card-item-bottom-calc .calc-price').text(sum);
     }
 }
+function card_similar_products_Slider_Init() {
+    $('.card-item-similar-products').slick({
+        slidesToShow: 3,
+        slidesToScroll: 3,
+        infinite:false,
+        draggable:false
+    })
+
+    $('.card-item-similar-products .product-item').hover(
+        function(){
+            var height = $(this).find('.product-item-wrapper').height()+30;
+            $(this).parents('.slick-list').css({'height':height+'px'});
+        },
+        function(){
+            $(this).parents('.slick-list').removeAttr('style');
+        }
+    );
+}
 
 $(document).ready(function() {
+    card_similar_products_Slider_Init();
     rentCardCalc();
     block_elect_item_remove_button();
     block_elect_item_one_height();
