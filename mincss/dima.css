@@ -873,4 +873,32 @@
   margin: 0 auto;
 }
 
+.card-page .card-tabs-sliders .card-tabs-sliders-main .card-tabs-sliders-main-item .slick-prev, .card-page .card-tabs-sliders .card-tabs-sliders-main .card-tabs-sliders-main-item .slick-next {
+  background-image: url(../images/card-slider-arrorws.png);
+  width: 14px;
+  height: 29px;
+  cursor: pointer;
+  top: 105px;
+}
+
+.card-page .card-tabs-sliders .card-tabs-sliders-main .card-tabs-sliders-main-item .slick-prev:before, .card-page .card-tabs-sliders .card-tabs-sliders-main .card-tabs-sliders-main-item .slick-prev.slick-disabled, .card-page .card-tabs-sliders .card-tabs-sliders-main .card-tabs-sliders-main-item .slick-next:before, .card-page .card-tabs-sliders .card-tabs-sliders-main .card-tabs-sliders-main-item .slick-next.slick-disabled {
+  display: none !important;
+}
+
+.card-page .card-tabs-sliders .card-tabs-sliders-main .card-tabs-sliders-main-item .slick-prev {
+  background-position: left top;
+}
+
+.card-page .card-tabs-sliders .card-tabs-sliders-main .card-tabs-sliders-main-item .slick-next {
+  background-position: right top;
+}
+
+.card-page .card-tabs-sliders .card-tabs-sliders-main .card-tabs-sliders-main-item .slick-prev:hover {
+  background-position: left bottom;
+}
+
+.card-page .card-tabs-sliders .card-tabs-sliders-main .card-tabs-sliders-main-item .slick-next:hover {
+  background-position: right bottom;
+}
+
 /* /card */
