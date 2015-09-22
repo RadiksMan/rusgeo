@@ -25,3 +25,4 @@ name/rent
 name/rent_card
 name/rent_category
 name/trade_in
+name/services

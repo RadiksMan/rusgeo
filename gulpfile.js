@@ -8,8 +8,10 @@ var input = './sass/**/*.scss';
 var output = './mincss';
 var sassOptions = {
   errLogToConsole: true,
-  outputStyle: 'nested'
+  outputStyle: 'compressed'
 };
+//outputStyle: 'expanded' -нормально
+
 
 function errorLog(error){
     console.error.bind(error);
@@ -38,7 +40,7 @@ gulp.task('sass', function () {
     .src(input)
     // .pipe(sass().on('error', sass.logError))
     // Run Sass on those files
-    .pipe(sass({outputStyle: 'expanded'}).on('error', sass.logError))
+    .pipe(sass({outputStyle: 'compressed'}).on('error', sass.logError))
     .pipe(autoprefixer({
         //browsers: ['Firefox > 20'],
         cascade: false
