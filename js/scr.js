@@ -48,18 +48,43 @@ function navHover(){
     });
 }
 function navigationBlockAcordion(){
-    $('.navigation_block .nav-menu>ul>li').hover(function(e) {
-        //e.preventDefault();
-        if( $(this).find('ul').hasClass('active')){
-            return false;
-        }else{
-        $('.navigation_block .nav-menu li').find('ul').slideUp(300,function(){
-            $(this).removeClass('active');
-        });
-        $(this).find('ul').slideDown(300).addClass('active');
+    //version 1
+    // $('.navigation_block .nav-menu>ul>li').hover(function(e) {
+    //     //e.preventDefault();
+    //     if( $(this).find('ul').hasClass('active')){
+    //         return false;
+    //     }else{
+    //     $('.navigation_block .nav-menu li').find('ul').slideUp(300,function(){
+    //         $(this).removeClass('active');
+    //     });
+    //     $(this).find('ul').slideDown(300).addClass('active');
+    //     }
+    // });
+
+    //version 2
+    var button = '<button class="btn_nav"></button>'
+    $('.navigation_block .nav-menu>ul>li').each(function() {
+        if ($(this).is(':has(ul)')){
+            $(this).append(button);
         }
     });
+    $(document).on('click', '.btn_nav', function() {
+        if($(this).parent().find('ul').hasClass('active')){return false;
+        }else{
+            $('.navigation_block .nav-menu li').find('ul.active').slideUp(300,function(){
+                $(this).removeClass('active');
+            });
+            $(this).parent().find('ul').slideDown(300).addClass('active');
+        }
+    });
+
 }
+
+
+
+
+
+
 function navSearch(){
     $('#nav_search').on('change keyup',function() {
         if($(this).val() !== ""){
@@ -248,14 +273,22 @@ function filterShow(){
 
     //ховер внеобласти
     $(document).click(function(event) {
-      if ($(event.target).closest(".filter_item_bottom").length) return;
-        if($(this).find('input[type=checkbox]').prop( "checked" ){
-
+    var elem = $(event.target).closest(".filter_item.active.item_bottom_show");
+    if (elem.length) {
+        return;
+        }else{
+            $(".filter_item.active.item_bottom_show").each(function() {
+                if($(this).find('.filter_item_bottom_check .checked').length > 0 ){
+                    console.log('check');
+                    $('.filter_item').removeClass('item_bottom_show');
+                }else{
+                    console.log('nope');
+                    $(this).removeClass('active item_bottom_show');
+                }
+            });
         }
-
-      event.stopPropagation();
+    event.stopPropagation();
     });
-
 }
 
 function filterStyling(){
