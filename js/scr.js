@@ -11,6 +11,14 @@ function loggedClick(){
         $('.login_form').slideUp('400');
     });
 }
+function loggedElementHide(){
+    $(document).click(function(event) {
+      if ($(event.target).closest(".userName").length && $('.userName').is('.active')) return;
+        $('.userName').removeClass('active');
+        $('.userOther').slideUp(400);
+      event.stopPropagation();
+    });
+}
 function navHover(){
     var padHeight = $('.nav_1 .nav-menu:not(.nav-column)').outerHeight();
     $('.nav-menu:not(.nav-column)').hide();
@@ -236,6 +244,16 @@ function filterShow(){
             $(this).prop( "checked", false).trigger('refresh');
         });
         $('.filter_item').removeClass('active item_bottom_show');
+    });
+
+    //ховер внеобласти
+    $(document).click(function(event) {
+      if ($(event.target).closest(".filter_item_bottom").length) return;
+        if($(this).find('input[type=checkbox]').prop( "checked" ){
+
+        }
+
+      event.stopPropagation();
     });
 
 }
@@ -678,6 +696,7 @@ function cardSliders(){
 /*/develop 1*/
 
 $(document).ready(function() {
+
 	$('.footer_placeholder').height($('.footer').outerHeight());
     card_similar_products_Slider_Init();
     rentCardCalc();
@@ -722,6 +741,7 @@ $(document).ready(function() {
     // /card call
 });
 $(window).load(function() {
+    loggedElementHide();
     productItemsHeightElem($('.reccomend-item .product-item'));
     productItemsHeightElem($('.popular-item .product-item'));
     productItemsHeightElem($('.katalog-item .product-item'));
