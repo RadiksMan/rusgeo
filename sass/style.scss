@@ -591,7 +591,7 @@
 .navigation_block{padding-bottom: 30px;
     .navigation_block_wrap{padding: 14px 10px;border:1px solid #ecf0f1;border-radius: 3px;}
     .nav-menu{display: block !important;
-        ul li{border-bottom:1px solid #ecf0f1;
+        ul li{border-bottom:1px solid #ecf0f1;position: relative;
             &:last-child{border-bottom:none;}
             a{padding: 9px 8px;text-decoration: none;color: #37728b;font-size: 14px;font-family: "PT Sans",sans-serif;display: block;
                 &:hover{background-color: #fbfbfb;color: #38393a;
@@ -611,6 +611,21 @@
 
         }
     }
+    .btn_nav{position: absolute;right: 0;top: 0;background-color: blue;height: 33px;width: 30px;outline: none;border:none;cursor: pointer;background: url('../images/bucket_prev.png') center center no-repeat;transform:rotate(180deg);transition:transform ease-out .2s;
+        &:after{}
+    }
+    ul.active + .btn_nav{transform:rotate(270deg);}
+
+    // .btn_nav{position: absolute;right: 0;top: 0;height: 33px;width: 30px;outline: none;border:none;background-color: #fff;transition:all ease-out .2s;
+    //     &:after{content: '';width: 0px;height: 0px;border: 9px solid transparent;border-top-color: #fff;top: 7px;right: -4px;position: absolute;transform: rotate(-90deg);transition:all ease-out .2s;}
+    //     &:before{border: 12px solid transparent;border-top-color: #37728B;position: absolute;content: "";-webkit-transform: rotate(270deg);-ms-transform: rotate(270deg);transform: rotate(270deg);top: 4px;right: -11px;transition:all ease-out .2s;}
+    // }
+    // ul.active + .btn_nav{transform:rotate(90deg);}
+
+
+
+
+
 }
 .katalog-content{
     .katalog_title{font-size: 36px;color: #38393a;font-family: "PT Sans",sans-serif;padding-bottom: 25px;}
